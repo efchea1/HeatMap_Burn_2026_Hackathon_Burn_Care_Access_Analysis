@@ -205,7 +205,7 @@ Outputs save to outputs/.
 ---
 
 <details>
-<summary><h2>Overview</h2></summary>
+<summary><h2>Excel workbook</h2></summary>
 
 The Excel workbook contains:
 
