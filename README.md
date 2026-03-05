@@ -116,7 +116,7 @@ Output deliverables: 5-sheet Excel workbook (State Summary, Vulnerability Rankin
 ### Equity Gaps
 - **Top 5 most vulnerable states:** MS, NH, MT, DE, SD  
 - **34 states** classified as Critical vulnerability tier  
-- Burn bed density ranges from **0 → 6.110 per 100k residents**
+- Burn bed density ranges from **0 -> 6.110 per 100k residents**
 
 ### Referral Network Gaps
 - **143 / 229 (62.4%)** Level I trauma centers lack burn capability  
@@ -207,7 +207,7 @@ Outputs save to outputs/.
 <details>
 <summary><h2>Excel workbook</h2></summary>
 
-The Excel workbook contains:
+### The Excel workbook contains:
 
 Sheet                       Contents
 State_Summary               All state metrics
@@ -220,7 +220,27 @@ Priority_Recommendations   Actionable guidance
 
 ---
 
+<details>
+<summary><h2>References</h2></summary>
 
+1. **Ivanko A, et al.** The Burden of Burns: An Analysis of Public Health Measures. *J Burn Care Res.* 2024. https://doi.org/10.1093/jbcr/irae053
 
+2. **Lovick EA, et al.** Development of the National Injury Resource Database (NIRD). *Burns.* 2024;50(2):315-320. https://doi.org/10.1016/j.burns.2023.10.020
 
+3. **Huang JF, et al.** Under-triage of burn injuries in the United States. *Burns.* 2021.
 
+4. **Murray CK, et al.** Excess hospital days are associated with burn transfer delays. *J Burn Care Res.* 2019.
+
+5. **Carmichael H, et al.** Regional disparities in access to verified burn center care. *J Trauma Acute Care Surg.* 2019;87:111-6.
+
+6. **Zonies D, et al.** Verified centers, nonverified centers, or other facilities: a national analysis. *J Am Coll Surg.* 2010;210:299-305.
+
+7. **CDC/ATSDR Social Vulnerability Index 2022.** https://www.atsdr.cdc.gov/placeandhealth/svi/
+
+8. **USDA Economic Research Service. Rural-Urban Continuum Codes, 2023.** https://www.ers.usda.gov/data-products/rural-urban-continuum-codes/
+
+9. **US Census Bureau. 2020 County Population Centroids.** https://www.census.gov/geographies/reference-files/time-series/geo/centers-population.html
+
+10. **US Census Geocoder.** Batch Address Geocoding API. https://geocoding.geo.census.gov/geocoder/
+
+</details>
