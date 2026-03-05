@@ -1,4 +1,4 @@
-# 🔥 HeatMap Hackathon 2026 - Burn Care Access Analysis
+# HeatMap Hackathon 2026 - Burn Care Access Analysis
 
 > **Advancing Equitable Access to Burn Care in the United States**  
 > National Injury Resource Database (NIRD) · BData / American Burn Association  
@@ -33,7 +33,7 @@ This project uses the **National Injury Resource Database (NIRD)**, the most com
 
 ## Key Findings
 
-### 🏥 National Snapshot
+### National Snapshot
 | Metric | Value |
 |---|---|
 | Hospitals in dataset | 635 across 50 states |
@@ -42,12 +42,12 @@ This project uses the **National Injury Resource Database (NIRD)**, the most com
 | ABA-verified burn centers | 74 (62% of adult BCs) |
 | States with **zero** adult burn centers | 7 - AK, DE, MS, MT, ND, NH, SD |
 
-### ⚖️ Equity Gaps
+### Equity Gaps
 - **Top 5 most vulnerable states:** MS, NH, MT, DE, SD
 - **34 states** classified as Critical vulnerability tier
 - Burn bed density ranges from **0 -> 6.110 per 100k residents**
 
-### 🚑 Referral Network Gaps
+### Referral Network Gaps
 - **143 / 229 (62.4%)** Level I trauma centers lack burn capability
 - **319 / 336 (94.9%)** Level II trauma centers lack burn capability
 - **498 total** trauma centers represent potential referral bottlenecks
@@ -56,10 +56,10 @@ This project uses the **National Injury Resource Database (NIRD)**, the most com
 - **351** high-priority tele-burn deployment sites identified (score ≥ 5)
 - Top tele-burn state: **Illinois** (52 candidate hospitals)
 
-### 👶 Pediatric Access Gap
+### Pediatric Access Gap
 - **5 states** have adult burn centers but **no** pediatric burn capability: CT, KY, ME, VT, WV
 
-### 💰 Burden & Impact *(Team 13 Modeled Estimate)*
+### Burden & Impact *(Team 13 Modeled Estimate)*
 - Estimated **~67,000 under-referred patients per year**
 - Estimated **~$1.6 billion in avoidable annual costs**
 - *Conservative modeled projection based on published literature — see [References](#references)*
@@ -90,21 +90,21 @@ This project uses the **National Injury Resource Database (NIRD)**, the most com
 | # | Analysis | Output |
 |---|---|---|
 | 1 | Data Loading & Cleaning | Normalized NIRD flags, composite burn/trauma indicators |
-| 2 | Burn Center Density by State | Fig 1 — Centers per million residents |
-| 3 | Burn Bed Capacity per 100k Residents | Fig 2 — Bed density by state |
-| 4 | Referral Gap — Trauma Centers w/o Burn Capability | Fig 3 — L1/L2 gap chart + pie |
-| 5 | Telemedicine Opportunity Score | Fig 4 — State-level tele-burn scoring |
-| 6 | Pediatric vs. Adult Access Gap | Fig 5 — Side-by-side center counts |
-| 7 | ABA Verification Rate by State | Fig 6 — Verification % bar chart |
-| 8 | Equity Quadrant: Access vs. Quality | Fig 7 — Bubble scatter by state |
-| 9 | Population-Weighted Distance to Nearest Burn Center | Fig 7.5 — Haversine distance (any & ABA-verified) |
-| 10 | Social Vulnerability (SVI) Integration | Fig 8 — Poverty × burn access scatter |
-| 11 | Composite Vulnerability Index | Fig 9 — 0–1 index, 4 risk tiers |
-| 12 | Executive Dashboard | Fig 10 — Multi-panel summary |
-| 13 | Sensitivity Analysis — Index Robustness | Fig 15 — 5 weighting scenarios, rank stability |
+| 2 | Burn Center Density by State | Fig 1: Centers per million residents |
+| 3 | Burn Bed Capacity per 100k Residents | Fig 2: Bed density by state |
+| 4 | Referral Gap — Trauma Centers w/o Burn Capability | Fig 3: L1/L2 gap chart + pie |
+| 5 | Telemedicine Opportunity Score | Fig 4: State-level tele-burn scoring |
+| 6 | Pediatric vs. Adult Access Gap | Fig 5: Side-by-side center counts |
+| 7 | ABA Verification Rate by State | Fig 6: Verification % bar chart |
+| 8 | Equity Quadrant: Access vs. Quality | Fig 7: Bubble scatter by state |
+| 9 | Population-Weighted Distance to Nearest Burn Center | Fig 7.5: Haversine distance (any & ABA-verified) |
+| 10 | Social Vulnerability (SVI) Integration | Fig 8: Poverty × burn access scatter |
+| 11 | Composite Vulnerability Index | Fig 9: 0–1 index, 4 risk tiers |
+| 12 | Executive Dashboard | Fig 10: Multi-panel summary |
+| 13 | Sensitivity Analysis - Index Robustness | Fig 15: 5 weighting scenarios, rank stability |
 | 14 | Export Summary Excel Workbook | `NIRD_Analysis_Summary.xlsx` |
 
-The **Composite Vulnerability Index** integrates burn bed density, ABA verification rate, SVI social vulnerability, and population-adjusted access into a single 0–1 score, validated across 5 weighting scenarios. All top-10 most vulnerable states remain in the top 15 across every scenario — confirming the index is methodologically robust.
+The **Composite Vulnerability Index** integrates burn bed density, ABA verification rate, SVI social vulnerability, and population-adjusted access into a single 0-1 score, validated across 5 weighting scenarios. All top-10 most vulnerable states remain in the top 15 across every scenario, confirming the index is methodologically robust.
 
 ---
 
@@ -127,7 +127,7 @@ pip install pandas numpy matplotlib seaborn openpyxl requests
 
    | File | Source |
    |---|---|
-   | `NIRD 20230130 Database_Hackathon.xlsx` | Requires DUA approval — see `BData_HeatMapHackathon_DUA_Summary.docx` |
+   | `NIRD 20230130 Database_Hackathon.xlsx` | Requires DUA approval = see `BData_HeatMapHackathon_DUA_Summary.docx` |
    | `CenPop2020_Mean_CO.txt` | [US Census County Population Centroids](https://www2.census.gov/geo/docs/reference/cenpop2020/county/) |
    | `SVI_2022_US_county.csv` | Included in repo |
    | `Ruralurbancontinuumcodes2023.xlsx` | Included in repo |
