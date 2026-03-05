@@ -63,9 +63,9 @@ Built composite flags: HAS_BURN, HAS_TRAUMA, TRAUMA_NO_BURN, L1_NO_BURN, L2_NO_B
 
 Fig 1: Burn center density per million residents by state, with ABA counts overlaid, zero-center states flagged  
 Fig 2: Burn bed capacity per 100k residents by state  
-Fig 11: Full choropleth heatmap — Composite Vulnerability Index side-by-side with burn centers per million, with AK/HI inset boxes  
+Fig 11: Full choropleth heatmap, Composite Vulnerability Index side-by-side with burn centers per million, with AK/HI inset boxes  
 
-**3. Distance Analysis - Their Original Contribution (Figure 7.5)**
+**3. Distance Analysis - Original Contribution (Figure 7.5)**
 
 Geocoded all 136 burn centers via Census Geocoder batch API; manually verified 18 failures  
 Loaded 3,221 county population-weighted centroids from Census 2020  
@@ -76,8 +76,8 @@ Key finding coded directly: Hawaii 0 miles to any center → 2,385 miles to ABA-
 
 **4. Referral Network Gaps (Figures 3, 4, 10)**
 
-Fig 3: Trauma centers without burn capability — stacked bar (top 30 states) + national pie chart  
-Fig 4: Telemedicine opportunity score by state — weighted by trauma level and bed size  
+Fig 3: Trauma centers without burn capability, stacked bar (top 30 states) + national pie chart  
+Fig 4: Telemedicine opportunity score by state, weighted by trauma level and bed size  
 Fig 10: Top 25 hospital-level tele-burn candidates ranked by opportunity score (name, state, county, beds, L1/L2 status, score)  
 
 **5. Equity & Vulnerability (Figures 5, 6, 7, 8, 9, 12, 15)**
