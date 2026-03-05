@@ -49,7 +49,7 @@ This project uses the **National Injury Resource Database (NIRD)**, the most com
 ---
 
 <details>
-<summary><h2>Arears Team 13 Explored</h2></summary>
+<summary><h2>Areas Team 13 Explored</h2></summary>
 
 The code contains 15 distinct analyses across 6 thematic domains:
 
