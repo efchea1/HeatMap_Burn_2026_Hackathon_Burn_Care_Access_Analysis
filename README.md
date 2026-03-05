@@ -5,6 +5,8 @@
 
 ---
 
+<div align="center">
+
 ## Team
 
 **Team 13 - HeatMap Hackathon 2026**
@@ -16,6 +18,8 @@
 | Shreya Pramanik |
 | Feifei Li |
 | Lance Killian McDonald |
+
+</div>
 
 ---
 
@@ -29,7 +33,7 @@
 - [Getting Started](#getting-started)
 - [Results & Outputs](#results--outputs)
 - [Team](#team)
-- [References](#references) 
+- [References](#references)
 
 ---
 
