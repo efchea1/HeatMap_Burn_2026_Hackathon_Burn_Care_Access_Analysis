@@ -1,4 +1,3 @@
-```markdown
 # 🔥 HeatMap Hackathon 2026 — Burn Care Access Analysis
 ## Team 13
 
