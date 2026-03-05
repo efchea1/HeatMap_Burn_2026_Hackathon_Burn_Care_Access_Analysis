@@ -51,7 +51,7 @@ This project uses the **National Injury Resource Database (NIRD)**, the most com
 - **319 / 336 (94.9%)** Level II trauma centers lack burn capability
 - **498 total** trauma centers represent potential referral bottlenecks
 
-### 📡 Telemedicine Opportunity
+### Telemedicine Opportunity
 - **351** high-priority tele-burn deployment sites identified (score ≥ 5)
 - Top tele-burn state: **Illinois** (52 candidate hospitals)
 
