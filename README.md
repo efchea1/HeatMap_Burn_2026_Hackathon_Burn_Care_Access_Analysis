@@ -82,18 +82,18 @@ Fig 10: Top 25 hospital-level tele-burn candidates ranked by opportunity score (
 
 **5. Equity & Vulnerability (Figures 5, 6, 7, 8, 9, 12, 15)**
 
-Fig 5: Pediatric vs. adult burn center access gap — top 25 states, identified 5 states with adult centers but zero pediatric capability  
+Fig 5: Pediatric vs. adult burn center access gap, top 25 states, identified 5 states with adult centers but zero pediatric capability  
 Fig 6: ABA verification rate by state  
-Fig 7: Equity quadrant — access vs. quality scatter plot, four-quadrant labeling of priority states  
-Fig 8: SVI integration — burn access vs. poverty rate (EP_POV150), bubble = burn beds, color = ABA verification; using 5 CDC SVI variables (poverty, no vehicle, limited English, disability, minority status) across 3,143 counties  
-Fig 9: Composite Vulnerability Index — Access (35%) + Quality (25%) + Capacity (25%) + Population (15%) — four risk tiers: Critical/High/Moderate/Low  
-Fig 12: Rural-Urban disparity — USDA RUCC 2023, 3,235 counties, 9-point scale aggregated to Urban/Mixed/Rural; burn center access, bed capacity, and access-vs-capacity scatter by class  
-Fig 15: Sensitivity analysis — CVI tested across 5 weight scenarios; max rank shift computed; all top-10 states remain in top 15 regardless of weights  
+Fig 7: Equity quadrant, access vs. quality scatter plot, four-quadrant labeling of priority states  
+Fig 8: SVI integration, burn access vs. poverty rate (EP_POV150), bubble = burn beds, color = ABA verification; using 5 CDC SVI variables (poverty, no vehicle, limited English, disability, minority status) across 3,143 counties  
+Fig 9: Composite Vulnerability Index, Access (35%) + Quality (25%) + Capacity (25%) + Population (15%), four risk tiers: Critical/High/Moderate/Low  
+Fig 12: Rural-Urban disparity, USDA RUCC 2023, 3,235 counties, 9-point scale aggregated to Urban/Mixed/Rural; burn center access, bed capacity, and access-vs-capacity scatter by class  
+Fig 15: Sensitivity analysis, CVI tested across 5 weight scenarios; max rank shift computed; all top-10 states remain in top 15 regardless of weights  
 
 **6. Burden & Impact (Figures 13, 14)**
 
-Fig 13: Projected patient impact — under-referral model: 600k × 15% needing specialist × 66% under-referred × 6.9 excess days × $3,500/day = $1.623B  
-Fig 14: Narrative arc visualization — THE PROBLEM → THE GAP → THE INEQUITY → THE IMPACT → THE FIX  
+Fig 13: Projected patient impact - under-referral model: 600k × 15% needing specialist × 66% under-referred × 6.9 excess days × $3,500/day = $1.623B  
+Fig 14: Narrative arc visualization - THE PROBLEM -> THE GAP -> THE INEQUITY -> THE IMPACT -> THE FIX  
 
 Output deliverables: 5-sheet Excel workbook (State Summary, Vulnerability Ranking, Tele Candidates Top 50, Referral Gap, Priority Recommendations)
 
@@ -185,20 +185,17 @@ Output deliverables: 5-sheet Excel workbook (State Summary, Vulnerability Rankin
 pip install pandas numpy matplotlib seaborn openpyxl requests
 ```
 ### Running the Analysis
-bash
-```
+```bash
 git clone https://github.com/your-org/heatmap-burn-2026.git
 cd heatmap-burn-2026
 ```
 ### Add required data files, then run:
-bash
-```
+```bash
 jupyter notebook Team13_HeatMap_Burn_2026_Hackathon.ipynb
 ```
 
 **or:**
-bash
-```
+```bash
 python Team13_HeatMap_Burn_2026_Hackathon.py
 ```
 Outputs save to outputs/.
@@ -209,6 +206,21 @@ Outputs save to outputs/.
 
 <details>
 <summary><h2>Overview</h2></summary>
+
+The Excel workbook contains:
+
+Sheet                       Contents
+State_Summary               All state metrics
+Vulnerability_Ranking      Composite index + tier
+Tele_Candidates_Top50      Top tele-burn sites
+Referral_Gap               L1/L2 without burn capability
+Priority_Recommendations   Actionable guidance
+
+</details>
+
+---
+
+
 
 
 
