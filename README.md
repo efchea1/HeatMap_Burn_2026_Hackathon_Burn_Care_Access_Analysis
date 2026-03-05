@@ -130,9 +130,14 @@ Output deliverables: 5-sheet Excel workbook (State Summary, Vulnerability Rankin
 ### Pediatric Access Gap
 - **5 states** have adult burn centers but **no** pediatric burn capability: CT, KY, ME, VT, WV
 
-### Burden & Impact
-- **~67,000 under-referred patients per year**  
-- **~$1.6 billion in avoidable annual costs**
+### BURDEN & IMPACT (Team 13 Modeled Estimate)
+  - Using published estimates for under-referral (Huang et al., 2021), excess hospital days 
+    (Murray et al., 2019), and national burn incidence (Ivanko et al., 2024), we model 
+    ~67,000 under-referred patients per year and ~$1.6B in avoidable annual costs.
+  - This is a conservative modeled projection illustrating the scale of the structural gap.
+  - Based on: Huang et al. 2021 (66% under-referral rate), Murray et al. 2019 
+    (6.9 excess hospital days), Ivanko et al. 2024 (600k/yr incidence), 
+    $3,500/day cost assumption (ABA cost benchmark)
 
 </details>
 
