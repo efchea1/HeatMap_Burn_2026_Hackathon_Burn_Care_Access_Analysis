@@ -7,7 +7,7 @@
 
 <div align="center">
 
-## Team 13 - HeatMap Hackathon 2026**
+## Team 13 - HeatMap Hackathon 2026
 
 | Name |
 |---|
