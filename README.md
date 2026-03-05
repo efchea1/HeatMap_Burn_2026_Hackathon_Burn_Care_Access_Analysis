@@ -5,6 +5,20 @@
 
 ---
 
+## Team
+
+**Team 13 - HeatMap Hackathon 2026**
+
+| Name |
+|---|
+| Emmanuel Fle Chea |
+| Josh Spitzer-Resnick |
+| Shreya Pramanik |
+| Feifei Li |
+| Lance Killian McDonald |
+
+---
+
 ## Table of Contents
 
 - [Overview](#overview)
@@ -163,20 +177,6 @@ The Excel workbook (`outputs/NIRD_Analysis_Summary.xlsx`) contains five sheets:
 | `Tele_Candidates_Top50` | Top 50 hospitals by tele-burn deployment score |
 | `Referral_Gap` | State-level Level I/II trauma centers lacking burn capability |
 | `Priority_Recommendations` | Actionable recommendations for High/Critical states |
-
----
-
-## Team
-
-**Team 13 - HeatMap Hackathon 2026**
-
-| Name |
-|---|
-| Emmanuel Fle Chea |
-| Josh Spitzer-Resnick |
-| Shreya Pramanik |
-| Feifei Li |
-| Lance Killian McDonald |
 
 ---
 
