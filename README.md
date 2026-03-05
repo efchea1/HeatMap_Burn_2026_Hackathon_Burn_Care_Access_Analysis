@@ -97,7 +97,7 @@ This project uses the **National Injury Resource Database (NIRD)**, the most com
 | 1 | Data Loading & Cleaning | Normalized NIRD flags, composite burn/trauma indicators |
 | 2 | Burn Center Density by State | Fig 1: Centers per million residents |
 | 3 | Burn Bed Capacity per 100k Residents | Fig 2: Bed density by state |
-| 4 | Referral Gap — Trauma Centers w/o Burn Capability | Fig 3: L1/L2 gap chart + pie |
+| 4 | Referral Gap: Trauma Centers w/o Burn Capability | Fig 3: L1/L2 gap chart + pie |
 | 5 | Telemedicine Opportunity Score | Fig 4: State-level tele-burn scoring |
 | 6 | Pediatric vs. Adult Access Gap | Fig 5: Side-by-side center counts |
 | 7 | ABA Verification Rate by State | Fig 6: Verification % bar chart |
