@@ -184,7 +184,26 @@ Output deliverables: 5-sheet Excel workbook (State Summary, Vulnerability Rankin
 ```bash
 pip install pandas numpy matplotlib seaborn openpyxl requests
 ```
+### Running the Analysis
+bash
+```
+git clone https://github.com/your-org/heatmap-burn-2026.git
+cd heatmap-burn-2026
+```
+### Add required data files, then run:
+bash
+```
+jupyter notebook Team13_HeatMap_Burn_2026_Hackathon.ipynb
+```
 
+**or:**
+bash
+```
+python Team13_HeatMap_Burn_2026_Hackathon.py
+```
+Outputs save to outputs/.
+
+</details>
 
 ---
 
