@@ -188,7 +188,7 @@ The Excel workbook (`outputs/NIRD_Analysis_Summary.xlsx`) contains five sheets:
 4. **Murray CK, et al.** Excess hospital days associated with burn transfer delays. *J Burn Care Res.* 2019.
 5. **Carmichael H, et al.** Regional disparities in access to verified burn center care. *J Trauma Acute Care Surg.* 2019;87:111–6.
 6. **Zonies D, et al.** Verified centers, nonverified centers, or other facilities: a national analysis. *J Am Coll Surg.* 2010;210:299–305.
-7. **CDC/ATSDR Social Vulnerability Index 2022.** https://www.atsdr.cdc.gov/placeandhealth/svi/
+7. **CDC/ATSDR Social Vulnerability Index 2022.** [https://www.atsdr.cdc.gov/placeandhealth/svi/](https://www.atsdr.cdc.gov/place-health/php/svi/svi-data-documentation-download.html)
 8. **USDA Economic Research Service.** Rural-Urban Continuum Codes, 2023. https://www.ers.usda.gov/data-products/rural-urban-continuum-codes/
 9. **US Census Bureau.** 2020 County Population Centroids. https://www.census.gov/geographies/reference-files/time-series/geo/centers-population.html
 10. **US Census Geocoder.** Batch Address Geocoding API. https://geocoding.geo.census.gov/geocoder/
