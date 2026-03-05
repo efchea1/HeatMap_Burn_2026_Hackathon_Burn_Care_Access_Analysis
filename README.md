@@ -59,9 +59,14 @@ This project uses the **National Injury Resource Database (NIRD)**, the most com
 - **5 states** have adult burn centers but **no** pediatric burn capability: CT, KY, ME, VT, WV
 
 ### Burden & Impact *(Team 13 Modeled Estimate)*
+- Incidence (Ivanko et al. 2024)            :   **600,000 burn patients/year**
+- Under-referral rate (Huang et al. 2021)   :        **× 66%  ->  ~396,000 under-referred**
+- Proportion meeting referral criteria      :        **× 17%  ->  ~67,000 patients affected**
+- Excess hospital days (Murray et al. 2019) :        **× 6.9 days/patient**
+- Cost per day (ABA benchmark)              :        **× $3,500/day**
 - Estimated **~67,000 under-referred patients per year**
 - Estimated **~$1.6 billion in avoidable annual costs**
-- *Conservative modeled projection based on published literature — see [References](#references)*
+- ⚠️ *Conservative modeled projection for illustrative purposes. Not a direct observational finding from the NIRD data.* - see [References](#references)*
 
 ---
 
@@ -157,20 +162,6 @@ The Excel workbook (`outputs/NIRD_Analysis_Summary.xlsx`) contains five sheets:
 | `Tele_Candidates_Top50` | Top 50 hospitals by tele-burn deployment score |
 | `Referral_Gap` | State-level Level I/II trauma centers lacking burn capability |
 | `Priority_Recommendations` | Actionable recommendations for High/Critical states |
-
----
-
-### Modeled Economic Impact
-
-Incidence (Ivanko et al. 2024)            :   600,000 burn patients/year
-Under-referral rate (Huang et al. 2021)   :        × 66%  ->  ~396,000 under-referred
-Proportion meeting referral criteria      :        × 17%  ->  ~67,000 patients affected
-Excess hospital days (Murray et al. 2019) :        × 6.9 days/patient
-Cost per day (ABA benchmark)              :        × $3,500/day
-
----
-
-> ⚠️ *Conservative modeled projection for illustrative purposes. Not a direct observational finding from the NIRD data.*
 
 ---
 
