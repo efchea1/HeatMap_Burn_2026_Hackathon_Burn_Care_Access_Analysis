@@ -61,7 +61,7 @@ Fig 1: Burn center density per million residents by state, with ABA counts overl
 Fig 2: Burn bed capacity per 100k residents by state
 Fig 11: Full choropleth heatmap — Composite Vulnerability Index side-by-side with burn centers per million, with AK/HI inset boxes
 
-**3. Distance Analysis — Their Original Contribution (Figure 7.5)**
+**3. Distance Analysis - Their Original Contribution (Figure 7.5)**
 
 Geocoded all 136 burn centers via Census Geocoder batch API; manually verified 18 failures
 Loaded 3,221 county population-weighted centroids from Census 2020
