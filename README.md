@@ -20,6 +20,8 @@
 
 ---
 
+## Repository Structure
+
 📦 heatmap-burn-2026/
 ├── 📓 Team13_HeatMap_Burn_2026_Hackathon.ipynb        # Main analysis notebook
 ├── 🐍 Team13_HeatMap_Burn_2026_Hackathon.py           # Python script version
