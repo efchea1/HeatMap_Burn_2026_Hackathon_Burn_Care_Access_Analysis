@@ -20,37 +20,6 @@
 
 ---
 
-# 🛠️ Repository Structure
-
-| **Folder / File** | **Description** |
-|-------------------|-----------------|
-| **Team13_HeatMap_Burn_2026_Hackathon.ipynb** | Main analysis notebook containing the full workflow |
-| **Team13_HeatMap_Burn_2026_Hackathon.py** | Python script version of the analysis pipeline |
-| **Burn_NIRD_2023_Burns.pdf** | NIRD source publication (Lovick et al.) |
-| **Burden_of_Burn_2024.pdf** | Burn incidence reference (Ivanko et al.) |
-| **Data_Mapping_Document.docx** | Data dictionary and field definitions |
-| **BData_HeatMapHackathon_DUA_Summary.docx** | Data Use Agreement summary for NIRD access |
-| **Use_Case_Publications.docx** | Supporting literature and reference papers |
-| **SVI_2022_US_county.csv** | CDC/ATSDR Social Vulnerability Index (county-level) |
-| **Ruralurbancontinuumcodes2023.xlsx** | USDA Rural–Urban Continuum Codes |
-| **outputs/** | Folder containing all generated outputs |
-| ├── *NIRD_Analysis_Summary.xlsx* | Full results workbook (5 sheets) |
-| ├── *KEY_FINDINGS_SUMMARY.md* | Auto-generated summary of key findings |
-| ├── *fig1_burn_density_by_state.png* | Burn center density by state |
-| ├── *fig2_burnbeds_per_100k.png* | Burn bed capacity per 100k residents |
-| ├── *fig3_referral_gap.png* | Level I/II trauma referral gap visualization |
-| ├── *fig4_telemedicine_opportunity.png* | Tele-burn deployment opportunity map |
-| ├── *fig5_pediatric_gap.png* | Pediatric vs adult burn access gap |
-| ├── *fig6_aba_verification_rate.png* | ABA verification rate by state |
-| ├── *fig7_equity_quadrant.png* | Access × Quality equity quadrant |
-| ├── *fig7_5_distance_analysis.png* | Population-weighted distance analysis |
-| ├── *fig8_svi_integration.png* | SVI × burn access integration plot |
-| ├── *fig9_vulnerability_index.png* | Composite Vulnerability Index visualization |
-| ├── *fig10_executive_dashboard.png* | Executive summary dashboard |
-| └── *fig15_sensitivity_analysis.png* | Sensitivity analysis across weighting scenarios |
-
----
-
 ## Overview
 
 Burn care in the United States is critically uneven. Of the ~6,200 hospitals in the country, only 135 have designated burn centers - and fewer than 62% of those are verified by the American Burn Association (ABA). Meanwhile, an estimated **600,000 individuals** annually suffer a burn injury requiring emergent care (Ivanko et al., 2024), with the majority of that care occurring outside of specialized burn facilities.
