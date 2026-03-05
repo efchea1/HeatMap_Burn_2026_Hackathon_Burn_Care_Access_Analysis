@@ -1,4 +1,4 @@
-# 🔥 HeatMap Hackathon 2026 — Burn Care Access Analysis
+# 🔥 HeatMap Hackathon 2026 - Burn Care Access Analysis
 
 > **Advancing Equitable Access to Burn Care in the United States**  
 > National Injury Resource Database (NIRD) · BData / American Burn Association  
@@ -21,18 +21,18 @@
 ---
 
 📦 heatmap-burn-2026/
-├── 📓 Team13_HeatMap_Burn_2026_Hackathon.ipynb   # Main analysis notebook
-├── 🐍 Team13_HeatMap_Burn_2026_Hackathon.py      # Python script version
-├── 📊 Burn_NIRD_2023_Burns.pdf                    # NIRD source publication (Lovick et al.)
-├── 📄 Burden_of_Burn_2024.pdf                     # Burn incidence reference (Ivanko et al.)
-├── 📋 Data_Mapping_Document.docx                  # Data dictionary & field definitions
-├── 📋 BData_HeatMapHackathon_DUA_Summary.docx     # Data use agreement summary
-├── 📋 Use_Case_Publications.docx                  # Supporting literature
-├── 🗂️ SVI_2022_US_county.csv                      # CDC/ATSDR Social Vulnerability Index
-├── 🗂️ Ruralurbancontinuumcodes2023.xlsx           # USDA Rural-Urban Continuum Codes
+├── 📓 Team13_HeatMap_Burn_2026_Hackathon.ipynb        # Main analysis notebook
+├── 🐍 Team13_HeatMap_Burn_2026_Hackathon.py           # Python script version
+├── 📊 Burn_NIRD_2023_Burns.pdf                        # NIRD source publication (Lovick et al.)
+├── 📄 Burden_of_Burn_2024.pdf                         # Burn incidence reference (Ivanko et al.)
+├── 📋 Data_Mapping_Document.docx                      # Data dictionary & field definitions
+├── 📋 BData_HeatMapHackathon_DUA_Summary.docx         # Data use agreement summary
+├── 📋 Use_Case_Publications.docx                      # Supporting literature
+├── 🗂️ SVI_2022_US_county.csv                          # CDC/ATSDR Social Vulnerability Index
+├── 🗂️ Ruralurbancontinuumcodes2023.xlsx               # USDA Rural-Urban Continuum Codes
 └── 📁 outputs/
-    ├── NIRD_Analysis_Summary.xlsx                  # Full results workbook (5 sheets)
-    ├── KEY_FINDINGS_SUMMARY.md                     # Auto-generated summary
+    ├── NIRD_Analysis_Summary.xlsx                     # Full results workbook (5 sheets)
+    ├── KEY_FINDINGS_SUMMARY.md                        # Auto-generated summary
     ├── fig1_burn_density_by_state.png
     ├── fig2_burnbeds_per_100k.png
     ├── fig3_referral_gap.png
