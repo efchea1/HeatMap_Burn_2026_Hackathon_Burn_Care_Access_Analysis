@@ -185,11 +185,11 @@ The Excel workbook (`outputs/NIRD_Analysis_Summary.xlsx`) contains five sheets:
 ## References
 
 1. **Ivanko A, et al.** The Burden of Burns: An Analysis of Public Health Measures. *J Burn Care Res.* 2024. https://doi.org/10.1093/jbcr/irae053
-2. **Lovick EA, et al.** Development of the National Injury Resource Database (NIRD). *Burns.* 2024;50(2):315–320. https://doi.org/10.1016/j.burns.2023.10.020
+2. **Lovick EA, et al.** Development of the National Injury Resource Database (NIRD). *Burns.* 2024;50(2):315-320. https://doi.org/10.1016/j.burns.2023.10.020
 3. **Huang JF, et al.** Under-triage of burn injuries in the United States. *Burns.* 2021.
 4. **Murray CK, et al.** Excess hospital days associated with burn transfer delays. *J Burn Care Res.* 2019.
-5. **Carmichael H, et al.** Regional disparities in access to verified burn center care. *J Trauma Acute Care Surg.* 2019;87:111–6.
-6. **Zonies D, et al.** Verified centers, nonverified centers, or other facilities: a national analysis. *J Am Coll Surg.* 2010;210:299–305.
+5. **Carmichael H, et al.** Regional disparities in access to verified burn center care. *J Trauma Acute Care Surg.* 2019;87:111-6.
+6. **Zonies D, et al.** Verified centers, nonverified centers, or other facilities: a national analysis. *J Am Coll Surg.* 2010;210:299-305.
 7. **CDC/ATSDR Social Vulnerability Index 2022.** [https://www.atsdr.cdc.gov/placeandhealth/svi/](https://www.atsdr.cdc.gov/place-health/php/svi/svi-data-documentation-download.html)
 8. **USDA Economic Research Service.** Rural-Urban Continuum Codes, 2023. https://www.ers.usda.gov/data-products/rural-urban-continuum-codes/
 9. **US Census Bureau.** 2020 County Population Centroids. https://www.census.gov/geographies/reference-files/time-series/geo/centers-population.html
