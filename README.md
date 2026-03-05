@@ -83,7 +83,7 @@ This project uses the **National Injury Resource Database (NIRD)**, the most com
 | **CDC/ATSDR Social Vulnerability Index** | `SVI_2022_US_county.csv` | County-level social vulnerability: poverty, no-vehicle households, limited English proficiency, disability, minority status (3,143 US counties) | 2022 |
 | **USDA Rural-Urban Continuum Codes** | `Ruralurbancontinuumcodes2023.xlsx` | County-level rural/urban classification used to contextualize geographic access | 2023 |
 | **US Census Bureau County Population Centroids** | `CenPop2020_Mean_CO.txt` | Population-weighted lat/lon centroids for 3,221 US counties; used for Haversine distance analysis | 2020 |
-| **US Census Geocoder API** | *(live API call)* | Batch geocoding of burn center addresses → coordinates; 118/136 centers auto-geocoded, 18 manually verified | 2020 |
+| **US Census Geocoder API** | *(live API call)* | Batch geocoding of burn center addresses -> coordinates; 118/136 centers auto-geocoded, 18 manually verified | 2020 |
 
 **Geocoding endpoint:** `https://geocoding.geo.census.gov/geocoder/locations/addressbatch`  
 **Distance method:** Haversine great-circle formula (Earth radius: 3,958.8 mi); minimum distance from each county centroid to all burn centers nationally.
