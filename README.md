@@ -46,6 +46,55 @@ This project uses the **National Injury Resource Database (NIRD)**, the most com
 
 ---
 
+## Arears Team 13 Explored
+The code contains 15 distinct analyses across 6 thematic domains:
+
+**1. National Snapshot & Data Foundation**
+
+Loaded 635 hospitals across all 50 states from NIRD 2023
+Cleaned and normalized 12 binary indicator columns (burn adult/peds, trauma L1/L2, ABA verified, state-designated, etc.)
+Built composite flags: HAS_BURN, HAS_TRAUMA, TRAUMA_NO_BURN, L1_NO_BURN, L2_NO_BURN
+
+**2. Geographic Access & Density (Figures 1, 2, 11)**
+
+Fig 1: Burn center density per million residents by state, with ABA counts overlaid, zero-center states flagged
+Fig 2: Burn bed capacity per 100k residents by state
+Fig 11: Full choropleth heatmap — Composite Vulnerability Index side-by-side with burn centers per million, with AK/HI inset boxes
+
+**3. Distance Analysis — Their Original Contribution (Figure 7.5)**
+
+Geocoded all 136 burn centers via Census Geocoder batch API; manually verified 18 failures
+Loaded 3,221 county population-weighted centroids from Census 2020
+Computed Haversine great-circle distance from every U.S. county to the nearest burn center — both any burn center and ABA-verified specifically
+Aggregated to the population-weighted state-level mean distance
+Computed % of counties exceeding 100-mile and 200-mile thresholds
+Key finding coded directly: Hawaii 0 miles to any center → 2,385 miles to ABA-verified
+
+**4. Referral Network Gaps (Figures 3, 4, 10)**
+
+Fig 3: Trauma centers without burn capability - stacked bar (top 30 states) + national pie chart
+Fig 4: Telemedicine opportunity score by state - weighted by trauma level and bed size
+Fig 10: Top 25 hospital-level tele-burn candidates ranked by opportunity score (name, state, county, beds, L1/L2 status, score)
+
+**5. Equity & Vulnerability (Figures 5, 6, 7, 8, 9, 12, 15)**
+
+Fig 5: Pediatric vs. adult burn center access gap - top 25 states, identified 5 states with adult centers but zero pediatric capability
+Fig 6: ABA verification rate by state
+Fig 7: Equity quadrant - access vs. quality scatter plot, four-quadrant labeling of priority states
+Fig 8: SVI integration - burn access vs. poverty rate (EP_POV150), bubble = burn beds, color = ABA verification; using 5 CDC SVI variables (poverty, no vehicle, limited English, disability, minority status) across 3,143 counties
+Fig 9: Composite Vulnerability Index - Access (35%) + Quality (25%) + Capacity (25%) + Population (15%) - four risk tiers: Critical/High/Moderate/Low
+Fig 12: Rural-Urban disparity - USDA RUCC 2023, 3,235 counties, 9-point scale aggregated to Urban/Mixed/Rural; burn center access, bed capacity, and access-vs-capacity scatter by class
+Fig 15: Sensitivity analysis - CVI tested across 5 weight scenarios; max rank shift computed; all top-10 states remain in top 15 regardless of weights
+
+**6. Burden & Impact (Figures 13, 14)**
+
+Fig 13: Projected patient impact - under-referral model: 600k × 15% needing specialist × 66% under-referred × 6.9 excess days × $3,500/day = $1.623B; zero-center states assumed 90% rate; excess infections modeled at 40% relative risk increase; state-level bar charts
+Fig 14: Narrative arc visualization - THE PROBLEM -> THE GAP -> THE INEQUITY -> THE IMPACT -> THE FIX, rendered as a dark-background story figure
+
+Output deliverables: 5-sheet Excel workbook (State Summary, Vulnerability Ranking, Tele Candidates Top 50, Referral Gap, Priority Recommendations with tailored action per state)
+
+---
+
 ## Key Findings
 
 ### National Snapshot
