@@ -22,15 +22,15 @@
 ---
 
 ## Table of Contents
-- [Overview](#overview)
-- [Arears Team 13 Explored](#arears-team-13-explored)
-- [Key Findings](#key-findings)
-- [Data Sources](#data-sources)
-- [Analysis Roadmap](#analysis-roadmap)
-- [Getting Started](#getting-started)
-- [Results & Outputs](#results--outputs)
-- [References](#references)
-- [License & Data Use](#license--data-use)
+- **Overview**
+- **Arears Team 13 Explored**
+- **Key Findings**
+- **Data Sources**
+- **Analysis Roadmap**
+- **Getting Started**
+- **Results & Outputs**
+- **References**
+- **License & Data Use**
 
 ---
 
@@ -244,3 +244,14 @@ Priority_Recommendations   Actionable guidance
 10. **US Census Geocoder.** Batch Address Geocoding API. https://geocoding.geo.census.gov/geocoder/
 
 </details>
+
+---
+
+<details>
+<summary><h2>License & Data Use</h2></summary>
+
+The analysis code in this repository is released for educational and research purposes.  
+The underlying NIRD dataset is proprietary to BData, Inc. and subject to a Data Use Agreement.  
+Please contact BData for data access inquiries.
+
+--- 
