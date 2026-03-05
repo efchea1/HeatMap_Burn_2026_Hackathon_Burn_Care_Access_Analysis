@@ -20,31 +20,34 @@
 
 ---
 
-📦 heatmap-burn-2026/
-├── 📓 Team13_HeatMap_Burn_2026_Hackathon.ipynb        # Main analysis notebook
-├── 🐍 Team13_HeatMap_Burn_2026_Hackathon.py           # Python script version
-├── 📊 Burn_NIRD_2023_Burns.pdf                        # NIRD source publication (Lovick et al.)
-├── 📄 Burden_of_Burn_2024.pdf                         # Burn incidence reference (Ivanko et al.)
-├── 📋 Data_Mapping_Document.docx                      # Data dictionary & field definitions
-├── 📋 BData_HeatMapHackathon_DUA_Summary.docx         # Data use agreement summary
-├── 📋 Use_Case_Publications.docx                      # Supporting literature
-├── 🗂️ SVI_2022_US_county.csv                          # CDC/ATSDR Social Vulnerability Index
-├── 🗂️ Ruralurbancontinuumcodes2023.xlsx               # USDA Rural-Urban Continuum Codes
-└── 📁 outputs/
-    ├── NIRD_Analysis_Summary.xlsx                     # Full results workbook (5 sheets)
-    ├── KEY_FINDINGS_SUMMARY.md                        # Auto-generated summary
-    ├── fig1_burn_density_by_state.png
-    ├── fig2_burnbeds_per_100k.png
-    ├── fig3_referral_gap.png
-    ├── fig4_telemedicine_opportunity.png
-    ├── fig5_pediatric_gap.png
-    ├── fig6_aba_verification_rate.png
-    ├── fig7_equity_quadrant.png
-    ├── fig7_5_distance_analysis.png
-    ├── fig8_svi_integration.png
-    ├── fig9_vulnerability_index.png
-    ├── fig10_executive_dashboard.png
-    └── fig15_sensitivity_analysis.png
+# 🛠️ Repository Structure
+
+| **Folder / File** | **Description** |
+|-------------------|-----------------|
+| **Team13_HeatMap_Burn_2026_Hackathon.ipynb** | Main analysis notebook containing the full workflow |
+| **Team13_HeatMap_Burn_2026_Hackathon.py** | Python script version of the analysis pipeline |
+| **Burn_NIRD_2023_Burns.pdf** | NIRD source publication (Lovick et al.) |
+| **Burden_of_Burn_2024.pdf** | Burn incidence reference (Ivanko et al.) |
+| **Data_Mapping_Document.docx** | Data dictionary and field definitions |
+| **BData_HeatMapHackathon_DUA_Summary.docx** | Data Use Agreement summary for NIRD access |
+| **Use_Case_Publications.docx** | Supporting literature and reference papers |
+| **SVI_2022_US_county.csv** | CDC/ATSDR Social Vulnerability Index (county-level) |
+| **Ruralurbancontinuumcodes2023.xlsx** | USDA Rural–Urban Continuum Codes |
+| **outputs/** | Folder containing all generated outputs |
+| ├── *NIRD_Analysis_Summary.xlsx* | Full results workbook (5 sheets) |
+| ├── *KEY_FINDINGS_SUMMARY.md* | Auto-generated summary of key findings |
+| ├── *fig1_burn_density_by_state.png* | Burn center density by state |
+| ├── *fig2_burnbeds_per_100k.png* | Burn bed capacity per 100k residents |
+| ├── *fig3_referral_gap.png* | Level I/II trauma referral gap visualization |
+| ├── *fig4_telemedicine_opportunity.png* | Tele-burn deployment opportunity map |
+| ├── *fig5_pediatric_gap.png* | Pediatric vs adult burn access gap |
+| ├── *fig6_aba_verification_rate.png* | ABA verification rate by state |
+| ├── *fig7_equity_quadrant.png* | Access × Quality equity quadrant |
+| ├── *fig7_5_distance_analysis.png* | Population-weighted distance analysis |
+| ├── *fig8_svi_integration.png* | SVI × burn access integration plot |
+| ├── *fig9_vulnerability_index.png* | Composite Vulnerability Index visualization |
+| ├── *fig10_executive_dashboard.png* | Executive summary dashboard |
+| └── *fig15_sensitivity_analysis.png* | Sensitivity analysis across weighting scenarios |
 
 ---
 
@@ -68,7 +71,7 @@ This project uses the **National Injury Resource Database (NIRD)** — the most 
 | Adult burn centers | 120 |
 | Pediatric burn centers | 89 |
 | ABA-verified burn centers | 74 (62% of adult BCs) |
-| States with **zero** adult burn centers | 7 — AK, DE, MS, MT, ND, NH, SD |
+| States with **zero** adult burn centers | 7 - AK, DE, MS, MT, ND, NH, SD |
 
 ### ⚖️ Equity Gaps
 - **Top 5 most vulnerable states:** MS, NH, MT, DE, SD
@@ -93,5 +96,3 @@ This project uses the **National Injury Resource Database (NIRD)** — the most 
 - *Conservative modeled projection based on published literature — see [References](#references)*
 
 ---
-
-## Repository Structure
