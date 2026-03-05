@@ -104,7 +104,7 @@ This project uses the **National Injury Resource Database (NIRD)**, the most com
 | 8 | Equity Quadrant: Access vs. Quality | Fig 7: Bubble scatter by state |
 | 9 | Population-Weighted Distance to Nearest Burn Center | Fig 7.5: Haversine distance (any & ABA-verified) |
 | 10 | Social Vulnerability (SVI) Integration | Fig 8: Poverty × burn access scatter |
-| 11 | Composite Vulnerability Index | Fig 9: 0–1 index, 4 risk tiers |
+| 11 | Composite Vulnerability Index | Fig 9: 0-1 index, 4 risk tiers |
 | 12 | Executive Dashboard | Fig 10: Multi-panel summary |
 | 13 | Sensitivity Analysis - Index Robustness | Fig 15: 5 weighting scenarios, rank stability |
 | 14 | Export Summary Excel Workbook | `NIRD_Analysis_Summary.xlsx` |
