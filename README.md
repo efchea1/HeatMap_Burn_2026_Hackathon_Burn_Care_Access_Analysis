@@ -23,7 +23,7 @@
 
 ## Table of Contents
 - **Overview**
-- **Arears Team 13 Explored**
+- **Areas Team 13 Explored**
 - **Key Findings**
 - **Data Sources**
 - **Analysis Roadmap**
