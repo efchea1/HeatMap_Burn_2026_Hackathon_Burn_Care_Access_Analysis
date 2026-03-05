@@ -2,7 +2,6 @@
 
 > **Advancing Equitable Access to Burn Care in the United States**  
 > National Injury Resource Database (NIRD) · BData / American Burn Association  
-> **Team 13** · HeatMap Hackathon 2026
 
 ---
 
@@ -159,4 +158,55 @@ The Excel workbook (`outputs/NIRD_Analysis_Summary.xlsx`) contains five sheets:
 | `Referral_Gap` | State-level Level I/II trauma centers lacking burn capability |
 | `Priority_Recommendations` | Actionable recommendations for High/Critical states |
 
+---
+
 ### Modeled Economic Impact
+
+Incidence (Ivanko et al. 2024)            :   600,000 burn patients/year
+Under-referral rate (Huang et al. 2021)   :        × 66%  ->  ~396,000 under-referred
+Proportion meeting referral criteria      :        × 17%  ->  ~67,000 patients affected
+Excess hospital days (Murray et al. 2019) :        × 6.9 days/patient
+Cost per day (ABA benchmark)              :        × $3,500/day
+
+---
+
+> ⚠️ *Conservative modeled projection for illustrative purposes. Not a direct observational finding from the NIRD data.*
+
+---
+
+## Team
+
+**Team 13 - HeatMap Hackathon 2026**
+
+| Name |
+|---|
+| Emmanuel Fle Chea |
+| Josh Spitzer-Resnick |
+| Shreya Pramanik |
+| Feifei Li |
+| Lance Killian McDonald |
+
+---
+
+## References
+
+1. **Ivanko A, et al.** The Burden of Burns: An Analysis of Public Health Measures. *J Burn Care Res.* 2024. https://doi.org/10.1093/jbcr/irae053
+2. **Lovick EA, et al.** Development of the National Injury Resource Database (NIRD). *Burns.* 2024;50(2):315–320. https://doi.org/10.1016/j.burns.2023.10.020
+3. **Huang JF, et al.** Under-triage of burn injuries in the United States. *Burns.* 2021.
+4. **Murray CK, et al.** Excess hospital days associated with burn transfer delays. *J Burn Care Res.* 2019.
+5. **Carmichael H, et al.** Regional disparities in access to verified burn center care. *J Trauma Acute Care Surg.* 2019;87:111–6.
+6. **Zonies D, et al.** Verified centers, nonverified centers, or other facilities: a national analysis. *J Am Coll Surg.* 2010;210:299–305.
+7. **CDC/ATSDR Social Vulnerability Index 2022.** https://www.atsdr.cdc.gov/placeandhealth/svi/
+8. **USDA Economic Research Service.** Rural-Urban Continuum Codes, 2023. https://www.ers.usda.gov/data-products/rural-urban-continuum-codes/
+9. **US Census Bureau.** 2020 County Population Centroids. https://www.census.gov/geographies/reference-files/time-series/geo/centers-population.html
+10. **US Census Geocoder.** Batch Address Geocoding API. https://geocoding.geo.census.gov/geocoder/
+
+---
+
+## License & Data Use
+
+The analysis code in this repository is released for educational and research purposes. The underlying NIRD dataset is proprietary to BData, Inc. and subject to a Data Use Agreement. Please contact BData for data access inquiries.
+
+---
+
+*HeatMap Hackathon 2026 · American Burn Association · BData, Inc.*
