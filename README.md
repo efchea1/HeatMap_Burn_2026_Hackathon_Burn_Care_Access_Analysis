@@ -67,7 +67,7 @@ This project uses the **National Injury Resource Database (NIRD)**, the most com
 - Estimated **~67,000 under-referred patients per year**
 - Estimated **~$1.6 billion in avoidable annual costs**
 
-> ⚠️ *Conservative modeled projection for illustrative purposes. Not a direct observational finding from the NIRD data.* - see [References](#references)*
+> ⚠️ *Conservative modeled projection for illustrative purposes. Not a direct observational finding from the NIRD data.* - see *[References](#references)*
 
 ---
 
