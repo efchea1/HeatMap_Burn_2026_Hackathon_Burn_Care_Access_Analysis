@@ -104,8 +104,6 @@ Output deliverables: 5-sheet Excel workbook (State Summary, Vulnerability Rankin
 <details>
 <summary><h2>Key Findings</h2></summary>
 
-  Primary Use Case: ***Advancing Equitable Access to Burn Care***
-
 **NATIONAL SNAPSHOT**
   - **635 hospitals** analyzed across 50 states
   - **7 states with ***zero*** adult burn centers:** AK, DE, MS, MT, ND, NH, SD
