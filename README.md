@@ -221,7 +221,7 @@ and place them in the project root directory:
 
 | File | Description |
 |---|---|
-| `NIRD_2023.csv` (or equivalent) | National Injury Resource Database |
+| `NIRD_2023.csv` (NIRD 2023 Database or equivalent) plus all the available public datasets listed in the **Data Sources**. | National Injury Resource Database |
 
 If you are a hackathon judge or authorized reviewer and need data access,
 please contact the team or BData directly.
