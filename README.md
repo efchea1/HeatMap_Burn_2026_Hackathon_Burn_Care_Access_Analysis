@@ -185,23 +185,68 @@ Output deliverables: 5-sheet Excel workbook (State Summary, Vulnerability Rankin
 <details>
 <summary><h2>Getting Started</h2></summary>
 
+## Getting Started
+
 ### Prerequisites
 ```bash
 pip install pandas numpy matplotlib seaborn openpyxl requests
 ```
-### Running the Analysis
-```bash
-git clone https://github.com/your-org/heatmap-burn-2026.git
-cd heatmap-burn-2026
+
+### Libraries Used
+```python
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
+import seaborn as sns
+import warnings, os
+import openpyxl, statistics
+from collections import defaultdict
+import requests
+import math
 ```
-### Add required data files, then run:
+
+### Clone the Repository
+```bash
+git clone https://github.com/efchea1/HeatMap_Burn_2026_Hackathon_Burn_Care_Access_Analysis.git
+cd HeatMap_Burn_2026_Hackathon_Burn_Care_Access_Analysis
+```
+
+### ⚠️ Data Access Notice
+The primary dataset (NIRD 2023, provided by BData / American Burn Association) 
+is governed by a Data Use Agreement and **cannot be redistributed publicly**.
+
+To run this notebook, you must have been granted access to the following files
+and place them in the project root directory:
+
+| File | Description |
+|---|---|
+| `NIRD_2023.csv` (or equivalent) | National Injury Resource Database |
+
+If you are a hackathon judge or authorized reviewer and need data access,
+please contact the team or BData directly.
+
+All pre-computed **outputs** (figures, Excel workbook, summary files) are 
+included in the `outputs/` folder and can be reviewed without re-running 
+the notebook.
+
+### Running the Analysis
+Once data files are in place:
 ```bash
 jupyter notebook Team13_HeatMap_Burn_2026_Hackathon.ipynb
 ```
+Run all cells top to bottom. Outputs save automatically to `outputs/`.
 
-**or:**
-```bash
-python Team13_HeatMap_Burn_2026_Hackathon.py
+### Repository Structure
+```
+├── Team13_HeatMap_Burn_2026_Hackathon.ipynb  # Main analysis notebook
+├── outputs/
+│   ├── NIRD_Analysis_Summary.xlsx            # Full results workbook
+│   ├── KEY_FINDINGS_SUMMARY.txt              # Key numbers summary
+│   ├── fig1_burn_center_density.png          # All figures
+│   └── ...
+├── README.md
+└── data/                                     # <- NOT included (DUA restricted)
 ```
 Outputs save to outputs/.
 
