@@ -111,7 +111,7 @@ Output deliverables: 5-sheet Excel workbook (State Summary, Vulnerability Rankin
   - 74 ABA-verified burn centers (62% of adult BCs)
   - **47 states with ZERO adult burn centers:** AK, AL, AR, AZ, CA, CO, CT, DC, DE, FL, GA, HI, IA, ID, IL, IN, KS, KY, LA, MA,
     MD, ME, MI, MN, MO, MS, MT, NC, ND, NE, NH, NJ, NV, NY, OH, OK, OR, PA, SC, SD, TN, TX, UT, VA, WA, WI, WV
-  - ***Wyoming:*** absent from NIRD 2023 working dataset (see Lovick et al. 2024)
+  - ***Wyoming:*** absent from NIRD 2023 working database (see NIRD 20230130)
 
 **EQUITY GAPS**
   - **Top 5 most vulnerable states:** MS, NH, MT, DE, SD
