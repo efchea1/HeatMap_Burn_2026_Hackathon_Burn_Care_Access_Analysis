@@ -104,40 +104,53 @@ Output deliverables: 5-sheet Excel workbook (State Summary, Vulnerability Rankin
 <details>
 <summary><h2>Key Findings</h2></summary>
 
-### National Snapshot
-| Metric | Value |
-|---|---|
-| Hospitals in dataset | 635 across 50 states |
-| Adult burn centers | 120 |
-| Pediatric burn centers | 89 |
-| ABA-verified burn centers | 74 (62% of adult BCs) |
-| States with **zero** adult burn centers | 7 - AK, DE, MS, MT, ND, NH, SD |
+  Primary Use Case: ***Advancing Equitable Access to Burn Care***
 
-### Equity Gaps
-- **Top 5 most vulnerable states:** MS, NH, MT, DE, SD  
-- **34 states** classified as Critical vulnerability tier  
-- Burn bed density ranges from **0 -> 6.110 per 100k residents**
+**NATIONAL SNAPSHOT**
+  - **635 hospitals** analyzed across 50 states
+  - **7 states with ***zero*** adult burn centers:** AK, DE, MS, MT, ND, NH, SD
+  - 120 adult burn centers  |  89 pediatric burn centers
+  - 74 ABA-verified burn centers (62% of adult BCs)
+  - **47 states with ZERO adult burn centers:** AK, AL, AR, AZ, CA, CO, CT, DC, DE, FL, GA, HI, IA, ID, IL, IN, KS, KY, LA, MA,
+    MD, ME, MI, MN, MO, MS, MT, NC, ND, NE, NH, NJ, NV, NY, OH, OK, OR, PA, SC, SD, TN, TX, UT, VA, WA, WI, WV
+  - ***Wyoming:*** absent from NIRD 2023 working dataset (see Lovick et al. 2024)
 
-### Referral Network Gaps
-- **143 / 229 (62.4%)** Level I trauma centers lack burn capability  
-- **319 / 336 (94.9%)** Level II trauma centers lack burn capability  
-- **498 total** trauma centers represent potential referral bottlenecks
+**EQUITY GAPS**
+  - **Top 5 most vulnerable states:** MS, NH, MT, DE, SD
+  - **34 states classified as Critical vulnerability tier (CVI > 0.65)**
+  - Burn bed density ranges from 0 -> 6.11 per 100k residents
 
-### Telemedicine Opportunity
-- **351** high-priority tele-burn deployment sites  
-- Top tele-burn state: **Illinois** (52 candidate hospitals)
+**REFERRAL NETWORK GAPS**
+  - 143/229 (62.4%) Level I trauma centers lack burn capability
+  - 319/336 (94.9%) Level II trauma centers lack burn capability
+  - 498/565 (88.1%) of ALL trauma centers lack burn capability
+  - 498 total trauma centers = potential referral bottlenecks
 
-### Pediatric Access Gap
-- **5 states** have adult burn centers but **no** pediatric burn capability: CT, KY, ME, VT, WV
+**TELEMEDICINE OPPORTUNITY**
+  - 351 high-priority tele-burn sites identified (score ≥ 5)
+  - **Top 3 states by total candidates:**    IL (52 total candidates) | CA (49 total candidates) | TX (38 total candidates)
+  - **Top 3 states by high-priority sites:** CA (30 score≥5) | IL (28 score≥5) | MI (24 score≥5)
+  - **NOTE:** 'Total candidates' = all trauma centers lacking burn capability per state
+  - **NOTE:** 'High-priority' (score ≥ 5) = subset qualifying for immediate deployment
 
-### BURDEN & IMPACT (Team 13 Modeled Estimate)
-  - Using published estimates for under-referral (Huang et al., 2021), excess hospital days 
-    (Murray et al., 2019), and national burn incidence (Ivanko et al., 2024), we model 
-    ~67,000 under-referred patients per year and ~$1.6B in avoidable annual costs.
-  - This is a conservative modeled projection illustrating the scale of the structural gap.
-  - Based on: Huang et al. 2021 (66% under-referral rate), Murray et al. 2019 
-    (6.9 excess hospital days), Ivanko et al. 2024 (600k/yr incidence), 
-    $3,500/day cost assumption (ABA cost benchmark)
+**PEDIATRIC ACCESS**
+  - 24 states have adult burn centers but NO pediatric capability
+  - **States:** AL, CA, CO, CT, DC, FL, IL, IN, KY, LA, MA, MD, ME, MI, MO, NY, OH, OK, PA, TN, TX, VA, VT, WV
+
+**BURDEN & IMPACT (Team 13 Modeled Estimate)**
+  - Formula: 600,000 × 15% × 66% × 6.9 days × $3,500/day
+  - ~59,400 under-referred patients/yr (modeled)
+  - ~$1.435B in avoidable annual costs (modeled)
+  - Conservative projection - not a direct NIRD observational finding. This is a floor.
+  - **Sources:**
+      Ivanko et al. 2024  -> 600,000/yr national burn incidence
+      Huang et al. 2021   -> 66% under-referral rate (Illinois statewide)
+      Murray et al. 2019  -> 6.9 excess hospital days from delayed referral
+      ABA benchmark       -> $3,500/day conservative cost assumption
+
+  **Tele top state by candidates:    IL (52 total)**
+  **Tele top state by score≥5:       CA (30 high-priority)**
+  **Referral gap: 498/565 = 88.1%**
 
 </details>
 
