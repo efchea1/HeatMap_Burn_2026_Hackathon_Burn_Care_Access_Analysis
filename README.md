@@ -196,8 +196,6 @@ Output deliverables: 5-sheet Excel workbook (State Summary, Vulnerability Rankin
 <details>
 <summary><h2>Getting Started</h2></summary>
 
-## Getting Started
-
 ### Prerequisites
 ```bash
 pip install pandas numpy matplotlib seaborn openpyxl requests
