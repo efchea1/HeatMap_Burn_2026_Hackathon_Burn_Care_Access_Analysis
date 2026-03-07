@@ -221,7 +221,7 @@ git clone https://github.com/efchea1/HeatMap_Burn_2026_Hackathon_Burn_Care_Acces
 cd HeatMap_Burn_2026_Hackathon_Burn_Care_Access_Analysis
 ```
 
-### ⚠️ Data Access Notice
+### Data Access Notice
 The primary dataset (NIRD 2023, provided by BData / American Burn Association) 
 is governed by a Data Use Agreement and **cannot be redistributed publicly**.
 
