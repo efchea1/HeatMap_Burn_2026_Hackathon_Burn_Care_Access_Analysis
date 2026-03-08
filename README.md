@@ -314,3 +314,6 @@ The underlying NIRD dataset is proprietary to BData, Inc. and subject to a Data 
 Please contact BData for data access inquiries.
 
 --- 
+
+*Where you live should not determine whether you survive 
+a burn injury. But today, it does.*
