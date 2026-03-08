@@ -92,7 +92,7 @@ Fig 15: Sensitivity analysis, CVI tested across 5 weight scenarios; max rank shi
 
 **6. Burden & Impact (Figures 13, 14)**
 
-Fig 13: Projected patient impact - under-referral model: 600k × 15% needing specialist × 66% under-referred × 6.9 excess days × $3,500/day = $1.623B  
+Fig 13: Projected patient impact - under-referral model: 600k × 15% needing specialist × 66% under-referred × 7.0% excess infection rate (Huang 2021 Table 2) × $24,000/infection = ~$1.1B  
 Fig 14: Narrative arc visualization - THE PROBLEM -> THE GAP -> THE INEQUITY -> THE IMPACT -> THE FIX  
 
 Output deliverables: 5-sheet Excel workbook (State Summary, Vulnerability Ranking, Tele Candidates Top 50, Referral Gap, Priority Recommendations)
@@ -143,7 +143,7 @@ Output deliverables: 5-sheet Excel workbook (State Summary, Vulnerability Rankin
   - **Sources:**
       Ivanko et al. 2024  -> 600,000/yr national burn incidence
       Huang et al. 2021   -> 66% under-referral rate (Illinois statewide)
-      Murray et al. 2019  -> 6.9 excess hospital days from delayed referral
+      × 7.0% excess infection rate (Huang 2021 Table 2) × $24,000/infection
       ABA benchmark       -> $3,500/day conservative cost assumption
 
   **Tele top state by candidates:    IL (52 total)**
@@ -288,7 +288,7 @@ Priority_Recommendations   Actionable guidance
 
 3. **Huang JF, et al.** Under-triage of burn injuries in the United States. *Burns.* 2021.
 
-4. **Murray CK, et al.** Excess hospital days are associated with burn transfer delays. *J Burn Care Res.* 2019.
+4. **Huang et al.** Burn Center Referral Practice Evaluation and Treatment Outcomes Comparison Among Verified, Nonverified Burn Centers, and Nonburn Centers: A Statewide Perspective. 2021
 
 5. **Carmichael H, et al.** Regional disparities in access to verified burn center care. *J Trauma Acute Care Surg.* 2019;87:111-6.
 
