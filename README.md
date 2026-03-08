@@ -313,6 +313,8 @@ The analysis code in this repository is released for educational and research pu
 The underlying NIRD dataset is proprietary to BData, Inc. and subject to a Data Use Agreement.  
 Please contact BData for data access inquiries.
 
+</details>
+
 --- 
 
 *Where you live should not determine whether you survive 
