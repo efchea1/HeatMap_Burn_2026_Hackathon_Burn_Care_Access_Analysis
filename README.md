@@ -23,13 +23,13 @@
 ---
 
 ## Table of Contents
+- **Project Summary**
 - **Repository Structure**
-- **Overview**
-- **Areas Explored**
-- **Key Findings**
 - **Data Sources**
-- **Analysis Roadmap**
 - **Getting Started**
+- **Methods Overview**
+- **Key Findings**
+- **Analysis Roadmap**
 - **Excel workbook**
 - **References**
 - **License & Data Use**
