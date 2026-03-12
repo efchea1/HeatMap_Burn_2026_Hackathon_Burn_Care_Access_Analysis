@@ -20,8 +20,6 @@
 
 ---
 
-<div align="center">
-
 ## Team members
 
 | Name |
@@ -31,8 +29,6 @@
 | Shreya Pramanik |
 | Feifei Li |
 | Lance Killian McDonald |
-
-</div>
 
 ---
 
