@@ -2,7 +2,21 @@
 ## HeatMap Hackathon 2026 · Team 13
 
 **Primary Use Case:** Use Case #3 - Advancing Equitable Access to Burn Care  
-**Organizers:** BData / American Burn Association · HealthcareMN · MinneAnalytics · University of Minnesota IRSA
+
+## Sponsors
+**Data & Clinical Sponsors**
+- BData Inc.
+- American Burn Association (ABA)
+
+**Convening Sponsors**
+- Carlson School of Management – Business Advancement Center for Health (BACH)
+- HealthcareMN
+- Institute for Research in Statistics and its Applications (IRSA)
+- MinneAnalytics
+
+**Award Sponsors**
+- Idea Fund
+- Eide Bailly
 
 ---
 
