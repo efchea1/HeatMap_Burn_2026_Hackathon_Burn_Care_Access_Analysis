@@ -9,7 +9,7 @@
 - American Burn Association (ABA)
 
 **Convening Sponsors**
-- Carlson School of Management – Business Advancement Center for Health (BACH)
+- Carlson School of Management - Business Advancement Center for Health (BACH)
 - HealthcareMN
 - Institute for Research in Statistics and its Applications (IRSA)
 - MinneAnalytics
