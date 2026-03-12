@@ -1,13 +1,14 @@
-# HeatMap Hackathon 2026 - Burn Care Access Analysis
+# Advancing Equitable Access to Burn Care
+## HeatMap Hackathon 2026 · Team 13
 
-> **Advancing Equitable Access to Burn Care in the United States**  
-> National Injury Resource Database (NIRD) · BData / American Burn Association  
+**Primary Use Case:** Use Case #3 - Advancing Equitable Access to Burn Care  
+**Organizers:** BData / American Burn Association · HealthcareMN · MinneAnalytics · University of Minnesota IRSA
 
 ---
 
 <div align="center">
 
-## Team 13 - HeatMap Hackathon 2026
+## Team members
 
 | Name |
 |---|
@@ -22,6 +23,7 @@
 ---
 
 ## Table of Contents
+- **Repository Structure**
 - **Overview**
 - **Areas Explored**
 - **Key Findings**
@@ -35,120 +37,44 @@
 ---
 
 <details>
-<summary><h2>Overview</h2></summary>
+<summary><h2>Project Summary</h2></summary>
 
-Burn care in the United States is critically uneven. Of the ~6,200 hospitals in the country, only 135 have designated burn centers, and fewer than 62% of those are verified by the American Burn Association (ABA). Meanwhile, an estimated **600,000 individuals** annually suffer a burn injury requiring emergent care (Ivanko et al., 2024), with the majority of that care occurring outside of specialized burn facilities.
+Every year, ~600,000 Americans require emergency burn care. Only 120 adult burn centers serve all 50 states, and 7 states have zero adult burn centers. Using the NIRD 2023 database combined with CDC SVI, USDA RUCC, and US Census population-weighted county centroids, Team 13 built a multi-layer geospatial equity analysis to identify where burn care fails, who bears the highest burden, and which targeted interventions deliver the greatest impact.
 
-This project uses the **National Injury Resource Database (NIRD)**, the most comprehensive, up-to-date database of US burn and trauma centers, to quantify structural gaps in burn care access across all 50 states. We analyze equity disparities, referral network failures, telemedicine deployment opportunities, and pediatric access gaps, and model the downstream burden of under-referral.
-
-**Primary Use Case:** Advancing equitable access to burn care  
-**Mechanism Focus:** Referral gaps and telemedicine are analyzed as drivers of *inequity*, not as ends in themselves
+**Key result:** Three combined interventions could reach **14,514 additional patients/year**, prevent **~1,015 infections**, and save **~$24M annually**.
 
 </details>
 
 ---
 
 <details>
-<summary><h2>Areas Explored</h2></summary>
+<summary><h2>Repository Structure</h2></summary>
 
-The code contains 15 distinct analyses across 6 thematic domains:
-
-**1. National Snapshot & Data Foundation**
-
-Loaded 635 hospitals across all 50 states from NIRD 2023  
-Cleaned and normalized 12 binary indicator columns (burn adult/peds, trauma L1/L2, ABA verified, state-designated, etc.)  
-Built composite flags: HAS_BURN, HAS_TRAUMA, TRAUMA_NO_BURN, L1_NO_BURN, L2_NO_BURN  
-
-**2. Geographic Access & Density (Figures 1, 2, 11)**
-
-Fig 1: Burn center density per million residents by state, with ABA counts overlaid, zero-center states flagged  
-Fig 2: Burn bed capacity per 100k residents by state  
-Fig 11: Full choropleth heatmap, Composite Vulnerability Index side-by-side with burn centers per million, with AK/HI inset boxes  
-
-**3. Distance Analysis (Figure 7.5)**
-
-Geocoded all 136 burn centers via Census Geocoder batch API; manually verified 18 failures  
-Loaded 3,221 county population-weighted centroids from Census 2020  
-Computed Haversine great-circle distance from every U.S. county to the nearest burn center, both any burn center and ABA-verified specifically  
-Aggregated to the population-weighted state-level mean distance  
-Computed % of counties exceeding 100-mile and 200-mile thresholds  
-Key finding coded directly: Hawaii 0 miles to any center → 2,385 miles to ABA-verified  
-
-**4. Referral Network Gaps (Figures 3, 4, 10)**
-
-Fig 3: Trauma centers without burn capability, stacked bar (top 30 states) + national pie chart  
-Fig 4: Telemedicine opportunity score by state, weighted by trauma level and bed size  
-Fig 10: Top 25 hospital-level tele-burn candidates ranked by opportunity score (name, state, county, beds, L1/L2 status, score)  
-
-**5. Equity & Vulnerability (Figures 5, 6, 7, 8, 9, 12, 15)**
-
-Fig 5: Pediatric vs. adult burn center access gap, top 25 states, identified 5 states with adult centers but zero pediatric capability  
-Fig 6: ABA verification rate by state  
-Fig 7: Equity quadrant, access vs. quality scatter plot, four-quadrant labeling of priority states  
-Fig 8: SVI integration, burn access vs. poverty rate (EP_POV150), bubble = burn beds, color = ABA verification; using 5 CDC SVI variables (poverty, no vehicle, limited English, disability, minority status) across 3,143 counties  
-Fig 9: Composite Vulnerability Index, Access (35%) + Quality (25%) + Capacity (25%) + Population (15%), four risk tiers: Critical/High/Moderate/Low  
-Fig 12: Rural-Urban disparity, USDA RUCC 2023, 3,235 counties, 9-point scale aggregated to Urban/Mixed/Rural; burn center access, bed capacity, and access-vs-capacity scatter by class  
-Fig 15: Sensitivity analysis, CVI tested across 5 weight scenarios; max rank shift computed; all top-10 states remain in top 15 regardless of weights  
-
-**6. Burden & Impact (Figures 13, 14)**
-
-Fig 13: Projected patient impact - under-referral model: 600k × 15% needing specialist × 66% under-referred × 7.0% excess infection rate (Huang 2021 Table 2) × $24,000/infection = ~$1.1B  
-Fig 14: Narrative arc visualization - THE PROBLEM -> THE GAP -> THE INEQUITY -> THE IMPACT -> THE FIX  
-
-Output deliverables: 5-sheet Excel workbook (State Summary, Vulnerability Ranking, Tele Candidates Top 50, Referral Gap, Priority Recommendations)
-
-</details>
-
----
-
-<details>
-<summary><h2>Key Findings</h2></summary>
-
-**NATIONAL SNAPSHOT**
-  - **635 hospitals** analyzed across 50 states
-  - **7 states with ***zero*** adult burn centers:** AK, DE, MS, MT, ND, NH, SD
-  - 120 adult burn centers  |  89 pediatric burn centers
-  - 74 ABA-verified burn centers (62% of adult BCs)
-  - **47 states with ZERO adult burn centers:** AK, AL, AR, AZ, CA, CO, CT, DC, DE, FL, GA, HI, IA, ID, IL, IN, KS, KY, LA, MA,
-    MD, ME, MI, MN, MO, MS, MT, NC, ND, NE, NH, NJ, NV, NY, OH, OK, OR, PA, SC, SD, TN, TX, UT, VA, WA, WI, WV
-  - ***Wyoming:*** absent from NIRD 2023 working database (see NIRD 20230130)
-
-**EQUITY GAPS**
-  - **Top 5 most vulnerable states:** MS, NH, MT, DE, SD
-  - **34 states classified as Critical vulnerability tier (CVI > 0.65)**
-  - Burn bed density ranges from 0 -> 6.11 per 100k residents
-
-**REFERRAL NETWORK GAPS**
-  - 143/229 (62.4%) Level I trauma centers lack burn capability
-  - 319/336 (94.9%) Level II trauma centers lack burn capability
-  - 498/565 (88.1%) of ALL trauma centers lack burn capability
-  - 498 total trauma centers = potential referral bottlenecks
-
-**TELEMEDICINE OPPORTUNITY**
-  - 351 high-priority tele-burn sites identified (score ≥ 5)
-  - **Top 3 states by total candidates:**    IL (52 total candidates) | CA (49 total candidates) | TX (38 total candidates)
-  - **Top 3 states by high-priority sites:** CA (30 score≥5) | IL (28 score≥5) | MI (24 score≥5)
-  - **NOTE:** 'Total candidates' = all trauma centers lacking burn capability per state
-  - **NOTE:** 'High-priority' (score ≥ 5) = subset qualifying for immediate deployment
-
-**PEDIATRIC ACCESS**
-  - 24 states have adult burn centers but NO pediatric capability
-  - **States:** AL, CA, CO, CT, DC, FL, IL, IN, KY, LA, MA, MD, ME, MI, MO, NY, OH, OK, PA, TN, TX, VA, VT, WV
-
-**BURDEN & IMPACT (Team 13 Modeled Estimate)**
-  - Formula: 600,000 × 15% × 66% × 6.9 days × $3,500/day
-  - ~59,400 under-referred patients/yr (modeled)
-  - ~$1.435B in avoidable annual costs (modeled)
-  - Conservative projection - not a direct NIRD observational finding. This is a floor.
-  - **Sources:**
-      Ivanko et al. 2024  -> 600,000/yr national burn incidence
-      Huang et al. 2021   -> 66% under-referral rate (Illinois statewide)
-      × 7.0% excess infection rate (Huang 2021 Table 2) × $24,000/infection
-      ABA benchmark       -> $3,500/day conservative cost assumption
-
-  **Tele top state by candidates:    IL (52 total)**
-  **Tele top state by score≥5:       CA (30 high-priority)**
-  **Referral gap: 498/565 = 88.1%**
+```
+├── Team13_HeatMap_Burn_2026_Hackathon.ipynb   # Main analysis notebook
+├── outputs/
+│   ├── fig1_burn_density_by_state.png
+│   ├── fig2_burnbeds_per_100k.png
+│   ├── fig3_referral_gap.png
+│   ├── fig4_telemedicine_opportunity.png
+│   ├── fig5_pediatric_gap.png
+│   ├── fig6_aba_verification_rate.png
+│   ├── fig7_5_distance_analysis.png
+│   ├── fig7_equity_quadrant.png
+│   ├── fig8_svi_access_poverty.png
+│   ├── fig9_vulnerability_index.png
+│   ├── fig10_tele_candidates_table.png
+│   ├── fig11_choropleth_heatmap.png
+│   ├── fig12_rural_urban_disparity.png
+│   ├── fig13_patient_impact.png
+│   ├── fig14_narrative_arc.png
+│   ├── fig15_sensitivity_analysis.png
+│   ├── fig16_demographic_disparity.png
+│   ├── fig17_deployment_impact.png
+│   └── NIRD_Analysis_Summary.xlsx
+├── KEY_FINDINGS_SUMMARY.txt
+└── README.md
+```
 
 </details>
 
@@ -157,37 +83,16 @@ Output deliverables: 5-sheet Excel workbook (State Summary, Vulnerability Rankin
 <details>
 <summary><h2>Data Sources</h2></summary>
 
-| Dataset | File | Description | Year |
-|---|---|---|---|
-| NIRD | `NIRD 20230130 Database_Hackathon.xlsx` | 635 hospitals; burn & trauma centers | 2023 |
-| CDC SVI | `SVI_2022_US_county.csv` | 3,143 counties; 5 vulnerability domains | 2022 |
-| USDA RUCC | `Ruralurbancontinuumcodes2023.xlsx` | Rural/urban classification | 2023 |
-| Census Centroids | `CenPop2020_Mean_CO.txt` | 3,221 county population-weighted centroids | 2020 |
-| Census Geocoder API | *(live)* | Batch geocoding of burn centers | 2020 |
+| Dataset | Source | Year | Usage |
+|---------|--------|------|-------|
+| NIRD Database | BData / American Burn Association | 2023 | Hospital-level burn center, trauma, bed data |
+| CDC/ATSDR Social Vulnerability Index | CDC | 2022 | County-level SES, mobility, demographic vulnerability |
+| Rural-Urban Continuum Codes | USDA ERS | 2023 | County rural/urban classification |
+| County Population Centroids | US Census Bureau | 2020 | Population-weighted distance computation |
+| Census Geocoder API | *(live)* | 2020 | Batch geocoding of burn centers |
 
-</details>
+> **Note:** The NIRD database (`NIRD 20230130 Database_Hackathon.xlsx`) was provided by hackathon organizers and are not redistributed here. All other datasets are in the dataset folder.
 
----
-
-<details>
-<summary><h2>Analysis Roadmap</h2></summary>
-
-| # | Analysis | Output |
-|---|---|---|
-| 1 | Data Loading & Cleaning | Composite indicators |
-| 2 | Burn Center Density | Fig 1 |
-| 3 | Burn Bed Capacity | Fig 2 |
-| 4 | Referral Gap | Fig 3 |
-| 5 | Telemedicine Score | Fig 4 |
-| 6 | Pediatric Gap | Fig 5 |
-| 7 | ABA Verification | Fig 6 |
-| 8 | Equity Quadrant | Fig 7 |
-| 9 | Distance Analysis | Fig 7.5 |
-| 10 | SVI Integration | Fig 8 |
-| 11 | Vulnerability Index | Fig 9 |
-| 12 | Dashboard | Fig 10 |
-| 13 | Sensitivity Analysis | Fig 15 |
-| 14 | Excel Export | Summary workbook |
 
 </details>
 
@@ -246,34 +151,121 @@ jupyter notebook Team13_HeatMap_Burn_2026_Hackathon.ipynb
 ```
 Run all cells top to bottom. Outputs save automatically to `outputs/`.
 
-### Repository Structure
+</details>
+
+---
+
+<details>
+<summary><h2>Methods Overview</h2></summary>
+
+### Geocoding Pipeline
+- 136 burn center locations geocoded via **Census Geocoder Batch API** (118 auto-geocoded; 18 manually verified)
+- **Haversine great-circle distance** computed from 3,221 county population-weighted centroids to every burn center
+- Two metrics: distance to *any* burn center and distance to *ABA-verified* center only
+
+### Composite Vulnerability Index (CVI)
+Min-max normalized, inverted where applicable:
+
+| Dimension | Weight | Variable |
+|-----------|--------|----------|
+| Access | 35% | Burn centers per million residents (inverted) |
+| Quality | 25% | % ABA-verified centers (inverted) |
+| Capacity | 25% | Burn beds per 100k residents (inverted) |
+| Population burden | 15% | State population (direct) |
+
+**Thresholds:** Critical > 0.65 · High > 0.50 · Moderate > 0.35 · Low ≤ 0.35  
+**Validation:** Sensitivity analysis across 5 weight schemes; max rank shift = 15 (robust)
+
+### Telemedicine Opportunity Score
+Trauma hospitals without burn capability scored by:
+- Base: +3.0 (qualifying criterion)
+- Level I designation: +2.0
+- Level II designation: +1.5
+- Bed size ≥ 25th percentile: +0.5; ≥ 75th percentile: +0.5
+
+### Impact Model (Floor Estimate)
 ```
-├── Team13_HeatMap_Burn_2026_Hackathon.ipynb  # Main analysis notebook
-├── outputs/
-│   ├── NIRD_Analysis_Summary.xlsx            # Full results workbook
-│   ├── KEY_FINDINGS_SUMMARY.txt              # Key numbers summary
-│   ├── fig1_burn_center_density.png          # All figures
-│   └── ...
-├── README.md
-└── data/                                     # <- NOT included (DUA restricted)
+Under-referred patients = 600,000 × 15% × 66%
+Avoidable infections    = under-referred × 7% excess rate
+Avoidable cost          = infections × $24,000/infection
 ```
-Outputs save to outputs/.
+Sources: Ivanko et al. 2024 (incidence); Huang et al. 2021 (under-referral rate + infection rates)
 
 </details>
 
 ---
 
 <details>
-<summary><h2>Excel workbook</h2></summary>
+<summary><h2>Key Findings</h2></summary>
 
-### The Excel workbook contains:
+### National Snapshot
+- **120** adult burn centers; **74** ABA-verified (62%)
+- **7 states** with zero adult burn centers: AK, DE, MS, MT, ND, NH, SD
+- **34 states** in Critical vulnerability tier (CVI > 0.65)
+- **88.1%** of trauma centers (498/565) lack burn capability
 
-Sheet                       Contents
-State_Summary               All state metrics
-Vulnerability_Ranking      Composite index + tier
-Tele_Candidates_Top50      Top tele-burn sites
-Referral_Gap               L1/L2 without burn capability
-Priority_Recommendations   Actionable guidance
+### Distance Burden (Selected States)
+| State | Distance to Any Center | Distance to ABA-Verified |
+|-------|----------------------|--------------------------|
+| Alaska | 1,427 mi | 1,427 mi |
+| North Dakota | 336 mi | 341 mi |
+| Montana | 260 mi | 397 mi |
+| South Dakota | 220 mi | 220 mi |
+
+### Equity Disparities
+- High-poverty counties: **2.1×** farther to any burn center
+- Minority-status counties: **0.4×** relative access to ABA-verified centers
+- ABA-verified access is **worse** than any-center access in **every single state**
+
+### Projected Impact of Interventions
+| Scenario | Patients/yr | Infections Avoided | Annual Savings |
+|----------|------------|-------------------|----------------|
+| S1: Tele-Burn Hubs (IL+CA+TX) | 10,611 | 742 | $18M |
+| S2: ABA Verification Expansion (SC+AL+AR+KY) | 1,432 | 100 | $2M |
+| S3: New Centers in 7 zero-center states | 2,182 | 152 | $4M |
+| **S4: All Three Combined** | **14,514** | **1,015** | **$24M** |
+
+
+
+> **Note:** Detail findings (`KEY_FINDINGS_SUMMARY.txt`), results(`NIRD_Analysis_Summarycsv`), and all 19 figures are in the `Outputs` folder.
+
+</details>
+
+---
+
+<details>
+<summary><h2>Analysis Roadmap</h2></summary>
+
+## Analysis Index
+
+| # | Analysis | Output |
+|---|---|---|
+| 1 | Data Loading & Cleaning | Composite indicators |
+| 2 | Text Export | Key finding summary |
+| 3 | Excel Export | Summary workbook |
+
+## Figures Index
+
+| Figure | Description |
+|--------|-------------|
+| Fig 1 | Burn center density by state (per million residents) |
+| Fig 2 | Burn bed capacity per 100k residents by state |
+| Fig 3 | Referral gap: trauma centers without burn capability |
+| Fig 4 | State-level telemedicine opportunity score |
+| Fig 5 | Pediatric vs. adult burn center access gap |
+| Fig 6 | ABA verification rate by state |
+| Fig 7 | Equity quadrant: access vs. quality by state |
+| Fig 7.5 | Population-weighted distance to nearest burn center |
+| Fig 8 | Burn access vs. socioeconomic vulnerability (SVI) |
+| Fig 9 | Composite Vulnerability Index by state |
+| Fig 10 | Top 25 telemedicine hub candidates (hospital level) |
+| Fig 11 | HeatMap choropleth: vulnerability index + access |
+| Fig 12 | Rural-urban burn care access disparity |
+| Fig 13 | Projected patient impact of under-referral |
+| Fig 14 | Narrative arc: The Burn Care Access Crisis in America |
+| Fig 15 | Vulnerability Index sensitivity analysis |
+| Fig 16 | Demographic disparity: who bears the burden |
+| Fig 17 | Projected impact of each deployment scenario |
 
 </details>
 
@@ -282,25 +274,15 @@ Priority_Recommendations   Actionable guidance
 <details>
 <summary><h2>References</h2></summary>
 
-1. **Ivanko A, et al.** The Burden of Burns: An Analysis of Public Health Measures. *J Burn Care Res.* 2024. https://doi.org/10.1093/jbcr/irae053
-
-2. **Lovick EA, et al.** Development of the National Injury Resource Database (NIRD). *Burns.* 2024;50(2):315-320. https://doi.org/10.1016/j.burns.2023.10.020
-
-3. **Huang JF, et al.** Under-triage of burn injuries in the United States. *Burns.* 2021.
-
-4. **Huang et al.** Burn Center Referral Practice Evaluation and Treatment Outcomes Comparison Among Verified, Nonverified Burn Centers, and Nonburn Centers: A Statewide Perspective. 2021
-
-5. **Carmichael H, et al.** Regional disparities in access to verified burn center care. *J Trauma Acute Care Surg.* 2019;87:111-6.
-
-6. **Zonies D, et al.** Verified centers, nonverified centers, or other facilities: a national analysis. *J Am Coll Surg.* 2010;210:299-305.
-
-7. **CDC/ATSDR Social Vulnerability Index 2022.** https://www.atsdr.cdc.gov/placeandhealth/svi/
-
-8. **USDA Economic Research Service. Rural-Urban Continuum Codes, 2023.** https://www.ers.usda.gov/data-products/rural-urban-continuum-codes/
-
-9. **US Census Bureau. 2020 County Population Centroids.** https://www.census.gov/geographies/reference-files/time-series/geo/centers-population.html
-
-10. **US Census Geocoder.** Batch Address Geocoding API. https://geocoding.geo.census.gov/geocoder/
+1. Ivanko et al. (2024). Burden of Burns. *J Burn Care Res*. DOI: 10.1093/jbcr/irae053  
+2. Lovick et al. (2024). NIRD. *Burns*. DOI: 10.1016/j.burns.2023.10.020  
+3. Huang et al. (2021). Under-triage of burn injuries. *Burns*.  
+4. Huang et al. (2021). Burn center referral practice (IL statewide). *Burns*.  
+5. Carmichael et al. (2019). Regional disparities in burn center access. *J Trauma Acute Care Surg*. 87:111–6.  
+6. Zonies et al. (2010). Verified vs. non-verified centers. *J Am Coll Surg*. 210:299–305.  
+7. CDC/ATSDR SVI 2022: https://www.atsdr.cdc.gov/placeandhealth/svi/  
+8. USDA RUCC 2023: https://www.ers.usda.gov/data-products/rural-urban-continuum-codes/  
+9. US Census County Centroids 2020: https://www.census.gov/geographies/reference-files/time-series/geo/centers-population.html  
 
 </details>
 
@@ -316,6 +298,8 @@ Please contact BData for data access inquiries.
 </details>
 
 --- 
+
+*Team 13 · HeatMap Hackathon 2026 · Primary Use Case #3: Advancing Equitable Access to Burn Care*
 
 *Where you live should not determine whether you survive 
 a burn injury. But today, it does.*
