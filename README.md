@@ -3,6 +3,20 @@
 
 **Primary Use Case:** Use Case #3 - Advancing Equitable Access to Burn Care  
 
+---
+
+## Team members
+
+| Name |
+|---|
+| Emmanuel Fle Chea |
+| Josh Spitzer-Resnick |
+| Shreya Pramanik |
+| Feifei Li |
+| Lance Killian McDonald |
+
+--- 
+
 ## Sponsors
 **Data & Clinical Sponsors**
 - BData Inc.
@@ -17,18 +31,6 @@
 **Award Sponsors**
 - Idea Fund
 - Eide Bailly
-
----
-
-## Team members
-
-| Name |
-|---|
-| Emmanuel Fle Chea |
-| Josh Spitzer-Resnick |
-| Shreya Pramanik |
-| Feifei Li |
-| Lance Killian McDonald |
 
 ---
 
