@@ -3,7 +3,7 @@
 
 **Primary Use Case:** Use Case #3 - Advancing Equitable Access to Burn Care  
 
----
+------
 
 ## Team members
 
