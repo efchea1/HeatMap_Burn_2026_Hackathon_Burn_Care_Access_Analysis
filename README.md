@@ -319,4 +319,4 @@ Please contact BData for data access inquiries.
 *Team 13 · HeatMap Hackathon 2026 · Primary Use Case #3: Advancing Equitable Access to Burn Care*
 
 *Where you live should not determine whether you survive 
-a burn injury. But today, it does.*
+a burn injury. But today, it does*
