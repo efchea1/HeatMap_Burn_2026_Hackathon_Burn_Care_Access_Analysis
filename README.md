@@ -162,6 +162,9 @@ jupyter notebook Team13_HeatMap_Burn_2026_Hackathon.ipynb
 ```
 Run all cells top to bottom. Outputs save automatically to `outputs/`.
 
+### Variables Used:
+Burn center location · ABA verification status · ABA verification rate (% by state) · Hospital trauma level · Hospital bed size · Burn bed count · Haversine distance to nearest burn center · Haversine distance to nearest ABA-verified center · Burn centers per million residents · Burn beds per 100k residents · State population · Burn incidence rate (per 100k) · EP_POV150 (poverty) · EP_NOVEH (no vehicle) · EP_MINRTY (minority status) · EP_DISABL (disability) · EP_LIMENG (limited English) · RUCC rural-urban classification · County population centroids
+
 </details>
 
 ---
