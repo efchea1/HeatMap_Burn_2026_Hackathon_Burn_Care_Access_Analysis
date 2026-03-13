@@ -198,7 +198,7 @@ Under-referred patients = 600,000 × 15% × 66%
 Avoidable infections    = under-referred × 7% excess rate
 Avoidable cost          = infections × $24,000/infection
 ```
-Sources: Ivanko et al. 2024 (incidence); Huang et al. 2021 (under-referral rate + infection rates)
+**Sources:** Under-referral rate (66%, Huang et al. 2021) represents a conservative ceiling; four independent U.S. and global studies report rates of 48-67% (Carter 2010, Davis 2012, Zonies 2010, Bazzi 2022).
 
 </details>
 
@@ -283,15 +283,18 @@ Sources: Ivanko et al. 2024 (incidence); Huang et al. 2021 (under-referral rate 
 <details>
 <summary><h2>References</h2></summary>
 
-1. Ivanko et al. (2024). Burden of Burns. *J Burn Care Res*. DOI: 10.1093/jbcr/irae053  
-2. Lovick et al. (2024). NIRD. *Burns*. DOI: 10.1016/j.burns.2023.10.020  
-3. Huang et al. (2021). Under-triage of burn injuries. *Burns*.  
-4. Huang et al. (2021). Burn center referral practice (IL statewide). *Burns*.  
-5. Carmichael et al. (2019). Regional disparities in burn center access. *J Trauma Acute Care Surg*. 87:111–6.  
-6. Zonies et al. (2010). Verified vs. non-verified centers. *J Am Coll Surg*. 210:299–305.  
-7. CDC/ATSDR SVI 2022: https://www.atsdr.cdc.gov/placeandhealth/svi/  
-8. USDA RUCC 2023: https://www.ers.usda.gov/data-products/rural-urban-continuum-codes/  
-9. US Census County Centroids 2020: https://www.census.gov/geographies/reference-files/time-series/geo/centers-population.html  
+1. Ivanko et al. (2024). Burden of Burns: Comparative analysis of databases. J Burn Care Res. DOI: 10.1093/jbcr/irae053
+2. Lovick et al. (2024). National Injury Resource Database. Burns. DOI: 10.1016/j.burns.2023.10.020
+3. Huang et al. (2021). Under-triage of burn injuries in the U.S. Burns.
+4. Huang et al. (2021). Burn center referral practice evaluation. Burns (statewide IL study; Table 2 infection rates).
+5. Carmichael et al. (2019). Regional disparities in access to verified burn center care. J Trauma Acute Care Surg. 87:111-6.
+6. Zonies et al. (2010). Verified vs. non-verified centers national analysis. J Am Coll Surg. 210:299-305.
+7. CDC/ATSDR Social Vulnerability Index 2022. https://www.atsdr.cdc.gov/placeandhealth/svi/
+8. USDA ERS Rural-Urban Continuum Codes 2023. https://www.ers.usda.gov/data-products/rural-urban-continuum-codes/
+9. US Census Bureau County Population Centroids 2020. https://www.census.gov/geographies/reference-files/time-series/geo/centers-population.html
+10. Carter JE, Neff LP, Holmes JH. Adherence to burn center referral criteria: are patients appropriately being referred? J Burn Care Res. 2010;31(1):26–30.
+11. Davis JS, Dearwater S, Rosales O, et al. Tracking non-burn center care: what you don't know may surprise you. J Burn Care Res. 2012;33(6):e263–7.
+12. Bazzi A, Ghazanfari MJ, Norouzi M, et al. Adherence to referral criteria for burn patients; a systematic review. Arch Acad Emerg Med. 2022;10(1):e43.
 
 </details>
 
