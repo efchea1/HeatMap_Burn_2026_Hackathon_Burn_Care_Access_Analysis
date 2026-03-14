@@ -302,6 +302,9 @@ Interactive Figs:https://mcdonaldlk.github.io/HeatmapHackathon/
 10. Carter JE, Neff LP, Holmes JH. Adherence to burn center referral criteria: are patients appropriately being referred? J Burn Care Res. 2010;31(1):26–30.
 11. Davis JS, Dearwater S, Rosales O, et al. Tracking non-burn center care: what you don't know may surprise you. J Burn Care Res. 2012;33(6):e263–7.
 12. Bazzi A, Ghazanfari MJ, Norouzi M, et al. Adherence to referral criteria for burn patients; a systematic review. Arch Acad Emerg Med. 2022;10(1):e43.
+13. Saffle JR, Edelman L, Theurer L, Morris SE, Cochran A. Telemedicine evaluation of acute burns is accurate and cost-effective. J Trauma. 2009;67(2):358–365. doi: 10.1097/TA.0b013e3181ae9b02.
+14. Garber RN, Garcia E, Goodwin CW, Deeter LA. Pictures do influence the decision to transfer: outcomes of a telemedicine program serving an eight-state rural population. J Burn Care Res. 2020;41(3):690–694. doi: 10.1093/jbcr/iraa017.
+15. Park C, Cho Y, Harvey J, Arnoldo B, Levi B. Telehealth and burn care: from faxes to augmented reality. Bioengineering (Basel). 2022;9(5):211. doi: 10.3390/bioengineering9050211.
 
 </details>
 
