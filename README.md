@@ -50,9 +50,9 @@
 <details>
 <summary><h2>Project Summary</h2></summary>
 
-Every year, ~600,000 Americans require emergency burn care. Only 120 adult burn centers serve all 50 states, and 7 states have zero adult burn centers. Using the NIRD 2023 database combined with CDC SVI, USDA RUCC, and US Census population-weighted county centroids, Team 13 built a multi-layer geospatial equity analysis to identify where burn care fails, who bears the highest burden, and which targeted interventions deliver the greatest impact.
+Every year, ~600,000 Americans require emergency burn care. Only 120 adult burn centers serve all 50 states, and 7 states have zero adult burn centers (AK, DE, MS, MT, ND, NH, SD). Note: Wyoming is absent from the NIRD 2023 working dataset and is therefore not included in state-level analyses; available evidence from Lovick et al. 2024 indicates Wyoming has no burn centers. Using the NIRD 2023 database combined with CDC SVI (2022), USDA RUCC (2023), and US Census population-weighted county centroids, Team 13 built a multi-layer geospatial equity analysis to identify where burn care fails, who bears the highest burden, and which targeted interventions deliver the greatest impact.
 
-**Key result:** Three combined interventions could reach **14,514 additional patients/year**, prevent **~1,015 infections**, and save **~$24M annually**.
+**Key result:** Three combined interventions could reach **14,514 additional patients/year**, prevent **~1,015 infections**, and save **~$24M annually** in infection costs (from a modeled national burden of ~$112M/yr).
 
 </details>
 
