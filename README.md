@@ -296,7 +296,7 @@ Interactive Figs:https://mcdonaldlk.github.io/HeatmapHackathon/
 4. Huang et al. (2021). Burn center referral practice evaluation. Burns (statewide IL study; Table 2 infection rates).
 5. Carmichael et al. (2019). Regional disparities in access to verified burn center care. J Trauma Acute Care Surg. 87:111-6.
 6. Zonies et al. (2010). Verified vs. non-verified centers national analysis. J Am Coll Surg. 210:299-305.
-7. CDC/ATSDR Social Vulnerability Index 2022. https://www.atsdr.cdc.gov/placeandhealth/svi/
+7. CDC/ATSDR Social Vulnerability Index 2022. [https://www.atsdr.cdc.gov/placeandhealth/svi/](https://www.atsdr.cdc.gov/place-health/php/svi/svi-data-documentation-download.html)
 8. USDA ERS Rural-Urban Continuum Codes 2023. https://www.ers.usda.gov/data-products/rural-urban-continuum-codes/
 9. US Census Bureau County Population Centroids 2020. https://www.census.gov/geographies/reference-files/time-series/geo/centers-population.html
 10. Carter JE, Neff LP, Holmes JH. Adherence to burn center referral criteria: are patients appropriately being referred? J Burn Care Res. 2010;31(1):26–30.
