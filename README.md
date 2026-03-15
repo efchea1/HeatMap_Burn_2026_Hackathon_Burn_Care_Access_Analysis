@@ -104,7 +104,6 @@ Every year, ~600,000 Americans require emergency burn care. Only 120 adult burn 
 
 > **Note:** The NIRD database (`NIRD 20230130 Database_Hackathon.xlsx`) was provided by hackathon organizers and are not redistributed here. All other datasets are in the dataset folder.
 
-
 </details>
 
 ---
@@ -281,6 +280,8 @@ Avoidable cost          = infections × $24,000/infection
 | Fig 16 | Demographic disparity: who bears the burden |
 | Fig 17 | Projected impact of each deployment scenario |
 
+<details>
+  
 ---
 
 <details>
