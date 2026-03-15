@@ -372,9 +372,9 @@ research purposes.
 The underlying NIRD dataset is proprietary to BData, Inc. and subject to 
 a Data Use Agreement. Please contact BData for data access inquiries.
 
-**Interactive Figures:**  
-https://mcdonaldlk.github.io/HeatmapHackathon/  
-*Note: The interactive maps are meant for visual display purposes only.*
+**Team brainstorming:**  
+[https://mcdonaldlk.github.io/HeatmapHackathon/](https://github.com/mcdonaldlk/HeatmapHackathon)  
+*Note: This repo shows how the team individually brainstorm.*
 
 </details>
 
