@@ -15,6 +15,10 @@
 | Feifei Li |
 | Lance Killian McDonald |
 
+**Team brainstorming:**  
+[https://mcdonaldlk.github.io/HeatmapHackathon/](https://github.com/mcdonaldlk/HeatmapHackathon)  
+*Note: This repo shows how the team individually brainstorm.*
+
 ---
 
 ## Sponsors
@@ -371,10 +375,6 @@ The analysis code in this repository is released for educational and
 research purposes.  
 The underlying NIRD dataset is proprietary to BData, Inc. and subject to 
 a Data Use Agreement. Please contact BData for data access inquiries.
-
-**Team brainstorming:**  
-[https://mcdonaldlk.github.io/HeatmapHackathon/](https://github.com/mcdonaldlk/HeatmapHackathon)  
-*Note: This repo shows how the team individually brainstorm.*
 
 </details>
 
