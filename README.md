@@ -282,20 +282,6 @@ Avoidable cost          = infections × $24,000/infection
 | Fig 17 | Projected impact of each deployment scenario |
 
 ---
-Interactive Figs:https://mcdonaldlk.github.io/HeatmapHackathon/
----
-
-## Team Contributions
-
-### Feifei Li
-- Interactive maps visualizing burn center access (see `code` folder)
-- Alternative presentation slides focusing on visual storytelling (see `ppt` folder)
-- Built on team's distance analysis to create judge-friendly visualizations
-  
-### Lance Killian McDonald
-- Deployed interactive maps to HTML web links for direct judge access.
-- Generated QR codes linking to project visualizations to streamline the presentation experience.
----
 
 <details>
 <summary><h2>References</h2></summary>
@@ -326,6 +312,12 @@ Interactive Figs:https://mcdonaldlk.github.io/HeatmapHackathon/
 The analysis code in this repository is released for educational and research purposes.  
 The underlying NIRD dataset is proprietary to BData, Inc. and subject to a Data Use Agreement.  
 Please contact BData for data access inquiries.
+
+**Additional information**
+
+Interactive Figs:https://mcdonaldlk.github.io/HeatmapHackathon/
+
+*NOTE: The interactive maps are met for visual display.
 
 </details>
 
