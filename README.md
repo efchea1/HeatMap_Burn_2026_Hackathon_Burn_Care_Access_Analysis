@@ -15,10 +15,6 @@
 | Feifei Li |
 | Lance Killian McDonald |
 
-**Team brainstorming:**  
-[https://mcdonaldlk.github.io/HeatmapHackathon/](https://github.com/mcdonaldlk/HeatmapHackathon)  
-*Note: This repo shows how the team individually brainstorm.*
-
 ---
 
 ## Sponsors
