@@ -115,7 +115,7 @@ in infection costs (from a modeled national burden of ~$112M/yr).
 
 > **Note:** The NIRD database (`NIRD 20230130 Database_Hackathon.xlsx`) was 
 provided by hackathon organizers and is not redistributed here. All other 
-datasets are in the dataset folder.
+datasets used are in the `Data` folder.
 
 </details>
 
@@ -275,7 +275,7 @@ literature, representing a significant research gap.
 
 > **Note:** Detailed findings (`KEY_FINDINGS_SUMMARY.txt`), results 
 (`NIRD_Analysis_Summary.xlsx`), and all 17 figures are in the 
-`outputs/` folder.
+Final_Results_Outputs` folder.
 
 </details>
 
