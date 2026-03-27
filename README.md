@@ -5,6 +5,14 @@
 
 ---
 
+## Updates
+
+Team 13, **WINNER** of the 2026 HeatMap Hackathon; 19 teams, 90+ participants. 
+
+Link to the announcement: https://www.linkedin.com/posts/bdatainc_the-heatmap-hackathon-results-are-in-last-activity-7442956813672837120-4P8H?utm_source=share&utm_medium=member_android&rcm=ACoAAB-ZgWgB1LLuBAiYwkxawFBlVxspCFfqlaI
+
+---
+
 ## Team Members
 
 | Name |
