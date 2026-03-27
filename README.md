@@ -17,7 +17,7 @@ Link to the announcement: https://www.linkedin.com/posts/bdatainc_the-heatmap-ha
 
 | Name |
 |---|
-| Emmanuel Fle Chea |
+| Emmanuel Fle Chea (**Team lead**) |
 | Josh Spitzer-Resnick |
 | Shreya Pramanik |
 | Feifei Li |
